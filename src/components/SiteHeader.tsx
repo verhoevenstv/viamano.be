@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { nav, siteConfig } from "@/lib/content";
@@ -16,15 +17,25 @@ export function SiteHeader() {
         {/* Logo / naam */}
         <Link
           href="/"
-          className="flex flex-col leading-none"
+          className="flex items-center gap-3"
           onClick={() => setOpen(false)}
         >
-          <span className="font-serif text-2xl uppercase tracking-[0.3em] text-ink">
-            {siteConfig.name}
-          </span>
-          <span className="mt-1 flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-sage-deep">
-            <span aria-hidden="true" className="h-px w-4 bg-gold" />
-            {siteConfig.role}
+          <Image
+            src="/logo-mark-navy.png"
+            alt=""
+            width={431}
+            height={504}
+            priority
+            className="h-11 w-auto"
+          />
+          <span className="flex flex-col leading-none">
+            <span className="font-serif text-2xl uppercase tracking-[0.3em] text-ink">
+              {siteConfig.name}
+            </span>
+            <span className="mt-1 flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-sage-deep">
+              <span aria-hidden="true" className="h-px w-4 bg-gold" />
+              {siteConfig.role}
+            </span>
           </span>
         </Link>
 

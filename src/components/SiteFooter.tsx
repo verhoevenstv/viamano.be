@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { nav, siteConfig } from "@/lib/content";
 import { Container } from "./Container";
 
@@ -11,6 +12,13 @@ export function SiteFooter() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {/* Naam + tagline */}
           <div>
+            <Image
+              src="/logo-mark-cream.png"
+              alt=""
+              width={431}
+              height={504}
+              className="mb-4 h-14 w-auto"
+            />
             <p className="font-serif text-2xl uppercase tracking-[0.3em] text-cream">
               {siteConfig.name}
             </p>
