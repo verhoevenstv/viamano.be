@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Design tokens (Tailwind v4). Deze worden automatisch utility-klassen:
+   --color-cream  ->  bg-cream / text-cream / border-cream ...
+   --font-serif   ->  font-serif
+   ───────────────────────────────────────────────────────────────────────── */
+@theme {
+  --color-cream: #fbf8f3;
+  --color-sand: #f1eae0;
+  --color-sand-deep: #e7ddcf;
+  --color-ink: #35362f;
+  --color-muted: #6e6c63;
+  --color-sage: #7c8a72;
+  --color-sage-deep: #5c6a52;
+  --color-sage-soft: #aeb9a2;
+  --color-clay: #be8a6a;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, "Times New Roman", serif;
+}
+
+/* Basis */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Iets ruimere leesbaarheid voor lopende tekst */
+.prose-soft p {
+  line-height: 1.75;
+}
+
+/* Respecteer gebruikers die minder beweging willen */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
