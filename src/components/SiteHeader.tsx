@@ -19,10 +19,11 @@ export function SiteHeader() {
           className="flex flex-col leading-none"
           onClick={() => setOpen(false)}
         >
-          <span className="font-serif text-2xl tracking-wide text-ink">
+          <span className="font-serif text-2xl uppercase tracking-[0.3em] text-ink">
             {siteConfig.name}
           </span>
-          <span className="mt-1 text-[11px] uppercase tracking-[0.25em] text-sage-deep">
+          <span className="mt-1 flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-sage-deep">
+            <span aria-hidden="true" className="h-px w-4 bg-gold" />
             {siteConfig.role}
           </span>
         </Link>

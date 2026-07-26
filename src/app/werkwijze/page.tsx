@@ -49,7 +49,7 @@ export default function WerkwijzePage() {
               <li key={i} className="flex gap-3 text-muted">
                 <span
                   aria-hidden="true"
-                  className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-sage"
+                  className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"
                 />
                 <span className="leading-relaxed">{item}</span>
               </li>

@@ -7,35 +7,34 @@
    ───────────────────────────────────────────────────────────────────────── */
 @theme {
   /* ───────────────────────────────────────────────────────────────────────
-     KLEURVARIANT — Karen kan kiezen tussen twee sferen.
-     Actief: Variant A (salie-groen). Om te wisselen naar Variant B:
-     zet Variant A in commentaar en haal Variant B uit commentaar.
-     De naam "sage" blijft in beide varianten dezelfde token; enkel de
-     kleurwaarde verandert, zodat de rest van de site ongewijzigd blijft.
+     MERKKLEUREN — afgeleid van het Amano-logo (blauwe handafdruk).
+       navy   = diep blauw van de handafdruk & letters
+       crème  = warme, zachte achtergrond
+       slate  = blauwgrijze tint (donkere vlakken)
+       goud   = fijne accentlijn
+     De accenttoken heet historisch "sage"; de waarden zijn nu de
+     merkkleuren, zodat de rest van de site ongewijzigd blijft werken.
      ─────────────────────────────────────────────────────────────────────── */
 
-  /* Variant A — Salie-groen (natuurlijk, aardend, rustig) */
-  --color-cream: #fbf8f3;
-  --color-sand: #f1eae0;
-  --color-sand-deep: #e7ddcf;
-  --color-ink: #35362f;
-  --color-muted: #6e6c63;
-  --color-sage: #7c8a72;
-  --color-sage-deep: #5c6a52;
-  --color-sage-soft: #aeb9a2;
-  --color-clay: #be8a6a;
+  --color-cream: #f5ecdb; /* warme crème achtergrond */
+  --color-sand: #ece0c9; /* iets dieper crème voor vlakken */
+  --color-sand-deep: #ddceb2; /* randen / lijnen */
 
-  /* Variant B — Rozehout / klei (warm, zacht, omhelzend)
-  --color-cream: #fbf6f2;
-  --color-sand: #f3e9e2;
-  --color-sand-deep: #e9d8cc;
-  --color-ink: #3b322e;
-  --color-muted: #776a63;
-  --color-sage: #b08b86;
-  --color-sage-deep: #8a655f;
-  --color-sage-soft: #ddc5c0;
-  --color-clay: #b27a66;
-  */
+  --color-ink: #2c4459; /* hoofdtekst & koppen (diep navy) */
+  --color-muted: #5f6b76; /* secundaire tekst (gedempt) */
+
+  /* Navy-accent — knoppen, labels, CTA */
+  --color-sage: #436383; /* medium navy (hover) */
+  --color-sage-deep: #33506b; /* primair navy */
+  --color-sage-soft: #b9c6d3; /* licht blauwgrijs (subtiel / op donker) */
+
+  --color-clay: #a67f3f; /* goud-accent voor tekst (spaarzaam) */
+
+  /* Extra semantische merktokens */
+  --color-navy: #33506b;
+  --color-slate: #5f7185; /* blauwgrijze vlakken */
+  --color-slate-soft: #c3ccd6; /* lichte tekst op navy/slate */
+  --color-gold: #c39a5b; /* goud accentlijn */
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, sans-serif;

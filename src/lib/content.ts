@@ -14,6 +14,8 @@ export const siteConfig = {
   name: "Amano",
   // Korte ondertitel die naast/onder de naam verschijnt
   role: "Rouwconsulente & life coach",
+  // Merk-baseline uit het logo
+  tagline: "Ruimte voor verlies. Verbinding in rouw. Hoop.",
   domain: "amano.be",
   url: "https://amano.be",
 
