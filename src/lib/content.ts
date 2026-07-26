@@ -3,10 +3,15 @@
  *  CENTRALE INHOUD VAN DE WEBSITE
  * ─────────────────────────────────────────────────────────────────────────
  *  Alle teksten van de site staan hier op één plek. Zo kunnen we Karens
- *  antwoorden makkelijk invullen zonder in de code te hoeven zoeken.
+ *  eigen woorden makkelijk invullen zonder in de code te hoeven zoeken.
  *
- *  Zoek naar het woord "PLACEHOLDER" om te zien wat nog vervangen moet worden.
- *  De rest is voorbeeldtekst die je vrij mag aanpassen.
+ *  LET OP — TIJDELIJKE TEKSTEN:
+ *  Onderstaande teksten zijn een eerste, herwerkte versie op basis van
+ *  hoe vergelijkbare rouwconsulent-/rouwbegeleidingspraktijken zich
+ *  presenteren (toon, opbouw, aanbod). Ze zijn bedoeld als startpunt
+ *  "tot nader order" en worden vervangen door Karens eigen verhaal en
+ *  gegevens. Persoonlijke passages ("Over mij", tarieven, contact) mag
+ *  Karen naar eigen aanvoelen bijstellen.
  * ─────────────────────────────────────────────────────────────────────────
  */
 
@@ -26,7 +31,7 @@ export const siteConfig = {
 
   // Eén zin die de kern samenvat (voor deelknoppen / metadata)
   description:
-    "Rouwbegeleiding en life coaching. Ik loop met je mee wanneer verdriet je pad kruist — in alle rust, op jouw tempo.",
+    "Rouwbegeleiding en life coaching in bijberoep. Ik loop met je mee na een verlies — in alle rust, op jouw tempo, tot je de draad van het leven weer kunt oppikken.",
 };
 
 export const nav = [
@@ -45,7 +50,7 @@ export const home = {
     eyebrow: "Rouwbegeleiding & life coaching",
     title: "Ruimte voor jouw verhaal, ruimte voor jouw verdriet.",
     subtitle:
-      "Ik loop met je mee wanneer verdriet je pad kruist — in alle rust, op jouw tempo, tot je de draad van het leven weer kunt oppikken.",
+      "Na het verlies van een dierbare voelt de wereld even stil. Ik loop met je mee — in alle rust, op jouw tempo, tot je de draad van het leven weer kunt oppikken.",
     primaryCta: { label: "Neem contact op", href: "/contact" },
     secondaryCta: { label: "Ontdek mijn aanbod", href: "/aanbod" },
   },
@@ -53,10 +58,9 @@ export const home = {
   welcome: {
     eyebrow: "Welkom",
     title: "Je hoeft dit niet alleen te dragen",
-    // PLACEHOLDER — vervang door Karens eigen woorden
     paragraphs: [
-      "Verlies zet je wereld stil. Er is geen juiste manier om te rouwen en geen tijdslimiet die telt. Wat er wél mag zijn, is iemand die naast je staat — die luistert zonder te oordelen en met je meegaat, in jouw tempo.",
-      "Als rouwconsulente en life coach bied ik die ruimte. Een plek waar je verhaal er mag zijn, waar tranen mogen vallen en waar we, stap voor stap, samen zoeken naar hoe je verder kunt.",
+      "Rouwen is geen ziekte die genezen moet worden, maar een weg die je stap voor stap gaat. Er bestaat geen juiste manier en geen tijdslimiet — enkel jouw manier, in jouw tempo.",
+      "Als rouwconsulente en life coach bied ik je een warme, veilige plek waar je verhaal er helemaal mag zijn. Geen oordeel, geen druk. Gewoon iemand die luistert, naast je staat en met je meezoekt naar hoe je verder kunt leven met dit gemis.",
     ],
   },
 
@@ -64,20 +68,20 @@ export const home = {
     eyebrow: "Waarmee ik je help",
     title: "Begeleiding die aansluit bij wat jij nodig hebt",
     intro:
-      "Elk verlies is anders. Daarom stem ik de begeleiding af op jouw verhaal en jouw tempo.",
+      "Elk verlies is anders, en elke mens rouwt op zijn eigen manier. Daarom stem ik de begeleiding altijd af op jouw verhaal, jouw vragen en jouw tempo.",
   },
 
   aboutTeaser: {
     eyebrow: "Over mij",
     title: "Ik spreek uit ervaring",
-    // PLACEHOLDER — vervang door Karens eigen verhaal (zie ook /over-mij)
-    text: "Ik weet uit eigen ervaring hoe diep verlies kan snijden — en hoe waardevol het is om iemand naast je te hebben die begrijpt wat je doormaakt. Vanuit die ervaring, en mijn opleiding als life coach, help ik anderen om de draad weer op te nemen.",
+    // Persoonlijke passage — Karen mag dit naar eigen aanvoelen bijstellen
+    text: "Ik verloor zelf mijn man na een zware ziekte. Ik weet dus uit eigen ervaring hoe diep een verlies kan snijden — en hoe waardevol het is om iemand naast je te hebben die het begrijpt. Vanuit die ervaring, en mijn opleiding als life coach, help ik anderen om opnieuw verder te gaan.",
     cta: { label: "Lees mijn verhaal", href: "/over-mij" },
   },
 
   closingCta: {
     title: "Klaar voor een eerste, vrijblijvend gesprek?",
-    text: "Een eerste kennismaking is altijd vrijblijvend. We kijken samen of het klikt en wat je nodig hebt.",
+    text: "Een eerste kennismaking is altijd vrijblijvend. We kijken samen of het klikt en wat je nodig hebt — je hoeft niet te weten waar te beginnen.",
     cta: { label: "Plan een kennismaking", href: "/contact" },
   },
 };
@@ -93,37 +97,36 @@ export type Service = {
   how: string;
 };
 
-// PLACEHOLDER — pas titels en teksten aan zodra we Karens aanbod kennen
 export const services: Service[] = [
   {
     slug: "rouwbegeleiding",
     icon: "leaf",
     title: "Rouwbegeleiding",
     summary:
-      "Na het verlies van een dierbare. Samen geven we ruimte aan je verdriet en zoeken we hoe je verder kunt leven met dit gemis.",
+      "Individuele gesprekken na het verlies van een dierbare. Samen geven we woorden en ruimte aan wat je voelt, en zoeken we hoe je verder kunt met het gemis.",
     forWhom:
-      "Voor iedereen die een partner, ouder, kind, familielid of goede vriend verloren heeft en steun kan gebruiken bij het verwerken.",
-    how: "In persoonlijke gesprekken luisteren we naar jouw verhaal, in alle rust en zonder oordeel. Er is geen vast schema — jouw tempo bepaalt de weg.",
+      "Voor iedereen die een partner, ouder, kind, familielid of goede vriend verloor en behoefte heeft aan een luisterend oor en aan houvast.",
+    how: "In een reeks persoonlijke gesprekken sta ik naast je — zonder oordeel en zonder vast draaiboek. Jouw verhaal en jouw tempo bepalen de weg die we samen gaan.",
   },
   {
     slug: "begeleiding-na-euthanasie",
     icon: "heart",
     title: "Begeleiding na euthanasie",
     summary:
-      "De bijzondere weg van afscheid en verlies rond een euthanasie brengt eigen vragen en gevoelens met zich mee.",
+      "Afscheid nemen via euthanasie is een bijzondere weg, met eigen vragen, twijfels en gevoelens die soms moeilijk te delen zijn.",
     forWhom:
-      "Voor partners en naasten die iemand verloren na een euthanasie, en die daarin een luisterend oor en herkenning zoeken.",
-    how: "Ik begeleid je met bijzondere aandacht voor de gemengde gevoelens die hierbij horen — vanuit begrip voor wat deze specifieke weg betekent.",
+      "Voor partners en naasten die iemand verloren na een euthanasie en zich daarin gehoord en begrepen willen voelen.",
+    how: "Ik begeleid je met bijzondere aandacht en begrip voor wat deze specifieke afscheidsweg met je doet — mede vanuit mijn eigen ervaring.",
   },
   {
     slug: "life-coaching",
     icon: "path",
     title: "Life coaching",
     summary:
-      "De draad weer opnemen, stap voor stap. Samen kijken we vooruit, in jouw richting en op jouw ritme.",
+      "Wanneer het scherpste verdriet stilaan luwt, dient zich een nieuwe vraag aan: hoe nu verder? Samen kijken we vooruit, in jouw richting en op jouw ritme.",
     forWhom:
-      "Voor wie na een verlies of ingrijpende periode opnieuw houvast en richting zoekt in het leven.",
-    how: "Met praktische gesprekken en coaching helpen we je om kleine stappen te zetten, opnieuw keuzes te maken en vertrouwen te hervinden.",
+      "Voor wie na een verlies of een ingrijpende periode opnieuw richting, veerkracht en vertrouwen zoekt.",
+    how: "Met praktische, doelgerichte gesprekken help ik je om kleine stappen te zetten, opnieuw keuzes te maken en je leven weer vorm te geven.",
   },
 ];
 
@@ -132,18 +135,29 @@ export const services: Service[] = [
 export const about = {
   eyebrow: "Over mij",
   title: "Over Karen",
-  // PLACEHOLDER — dit vervangen we volledig door Karens eigen verhaal
+  // Wordt gebruikt als samenvatting (metadata) van de pagina
   intro:
-    "Hier vertelt Karen wie ze is, wat haar drijft en hoe ze anderen wil bijstaan. (Placeholdertekst — wordt vervangen door haar eigen woorden.)",
+    "Ik ben Karen, rouwconsulente en life coach. Uit eigen ervaring en vanuit mijn opleiding help ik mensen om na een verlies de draad van het leven weer op te nemen.",
+  // Persoonlijk verhaal — herwerkte startversie, door Karen te personaliseren
   paragraphs: [
-    "Mijn naam is Karen. Ik weet uit eigen ervaring wat het is om een grote liefde te verliezen en om overeind te blijven op de moeilijkste momenten. Die ervaring heeft me gevormd en gaf me de wens om er voor anderen te zijn.",
-    "Naast mijn levenservaring volgde ik een opleiding tot life coach. Die combinatie — begrijpen wat verlies met een mens doet én de tools om iemand weer op weg te helpen — vormt de basis van hoe ik werk.",
-    "Ik doe dit werk in bijberoep, met veel zorg en tijd voor elke persoon die ik begeleid. Geen wachtkamergevoel, maar een warme, veilige plek waar jij centraal staat.",
+    "Mijn naam is Karen. Ik verloor mijn man na een zware ziekte. Ik weet dus uit eigen ervaring hoe diep een verlies kan snijden, en hoe eenzaam het kan voelen — ook wanneer er lieve mensen om je heen staan.",
+    "Die ervaring heeft me gevormd. Ze gaf me de diepe wens om er te zijn voor anderen die iets gelijkaardigs meemaken — niet vanuit een boek, maar vanuit wat ik zelf heb doorleefd.",
+    "Naast mijn levenservaring volgde ik een opleiding tot life coach. Die combinatie — aanvoelen wat verlies met een mens doet én de handvatten hebben om iemand weer op weg te helpen — vormt de kern van hoe ik werk.",
+    "Ik doe dit werk in bijberoep, bewust met veel tijd en aandacht voor elke persoon die ik begeleid. Geen wachtkamergevoel, maar een warme, veilige plek waar jij centraal staat.",
   ],
   values: [
-    { title: "Warmte", text: "Je wordt ontvangen zonder oordeel, in alle veiligheid en rust." },
-    { title: "Ervaring", text: "Ik spreek niet alleen vanuit theorie, maar vanuit wat ik zelf heb doorleefd." },
-    { title: "Jouw tempo", text: "Er is geen schema of tijdslimiet. Wat jij nodig hebt, bepaalt de weg." },
+    {
+      title: "Warmte",
+      text: "Je wordt ontvangen zonder oordeel, in alle veiligheid en rust.",
+    },
+    {
+      title: "Ervaring",
+      text: "Ik spreek niet vanuit de theorie alleen, maar vanuit wat ik zelf heb doorleefd.",
+    },
+    {
+      title: "Jouw tempo",
+      text: "Er is geen schema en geen tijdslimiet. Wat jij nodig hebt, bepaalt de weg.",
+    },
   ],
 };
 
@@ -153,32 +167,32 @@ export const werkwijze = {
   eyebrow: "Werkwijze",
   title: "Hoe een begeleiding verloopt",
   intro:
-    "Elke begeleiding is anders, want elk verhaal is anders. Toch geef ik je graag een idee van hoe het meestal gaat.",
+    "Elke begeleiding is anders, want elk verhaal is anders. Toch geef ik je graag een idee van hoe een traject meestal verloopt.",
   steps: [
     {
       title: "Kennismaking",
-      text: "We starten met een vrijblijvend kennismakingsgesprek. Je vertelt wat er speelt, ik luister, en samen voelen we of het klikt.",
+      text: "We beginnen met een vrijblijvend kennismakingsgesprek. Jij vertelt wat er speelt, ik luister, en samen voelen we of er een klik is. Pas daarna beslis je of je verder wil.",
     },
     {
       title: "Samen op weg",
-      text: "In de gesprekken die volgen geven we ruimte aan je verhaal en verdriet. Geen vast draaiboek — we volgen wat jij nodig hebt.",
+      text: "In de gesprekken die volgen geven we ruimte aan je verhaal, je herinneringen en je verdriet. We werken niet volgens een strak schema, maar volgen wat jij op dat moment nodig hebt.",
     },
     {
       title: "Jouw tempo",
-      text: "Jij bepaalt hoe vaak en hoe lang we samenkomen. Er is geen tijdsdruk; rouwen kent geen deadline.",
+      text: "Jij bepaalt hoe vaak en hoe lang we samenkomen. Sommige mensen hebben genoeg aan enkele gesprekken, anderen aan een langer traject. Er is geen tijdsdruk — rouwen kent geen deadline.",
     },
     {
       title: "Verder kijken",
-      text: "Stap voor stap kijken we ook vooruit: hoe je de draad weer kunt opnemen, met het gemis een plek in je leven.",
+      text: "Wanneer je er klaar voor bent, kijken we ook vooruit: hoe je het gemis een plek geeft en de draad van je leven weer opneemt, op jouw manier.",
     },
   ],
   practical: {
     title: "Praktisch",
-    // PLACEHOLDER — vul aan zodra we weten waar/hoe Karen werkt
     items: [
-      "Gesprekken kunnen bij mij plaatsvinden, bij jou thuis of online — wat voor jou het beste voelt.",
+      "Gesprekken kunnen doorgaan bij mij, bij jou thuis of online — wat voor jou het veiligst voelt.",
       "Een gesprek duurt ongeveer een uur.",
-      "Alles wat je deelt, blijft tussen ons.",
+      "Een eerste kennismaking is altijd vrijblijvend.",
+      "Alles wat je deelt, blijft strikt vertrouwelijk.",
     ],
   },
 };
@@ -189,15 +203,27 @@ export const tarieven = {
   eyebrow: "Tarieven",
   title: "Tarieven",
   intro:
-    "Duidelijkheid en rust, ook rond het praktische. Hieronder vind je de tarieven. (Placeholder — vul de juiste bedragen in.)",
-  // PLACEHOLDER — vul de echte tarieven in of laat deze sectie weg
+    "Duidelijkheid en rust, ook over het praktische. Hieronder vind je een indicatie van de tarieven. De juiste bedragen bevestigen we samen bij een kennismaking.",
+  // De bedragen zijn indicatief (op basis van gangbare tarieven) — nog te bevestigen
   items: [
-    { label: "Kennismakingsgesprek", price: "Gratis & vrijblijvend", note: "Een eerste gesprek om te voelen of het klikt." },
-    { label: "Begeleidingsgesprek (± 1 uur)", price: "€ XX", note: "Individueel gesprek, bij mij, aan huis of online." },
-    { label: "Traject van meerdere sessies", price: "In overleg", note: "We stemmen samen af wat je nodig hebt." },
+    {
+      label: "Kennismakingsgesprek",
+      price: "Gratis & vrijblijvend",
+      note: "Een eerste, kort gesprek om te voelen of het klikt.",
+    },
+    {
+      label: "Individueel gesprek (± 1 uur)",
+      price: "€ 70",
+      note: "Persoonlijk gesprek, bij mij, bij jou thuis of online.",
+    },
+    {
+      label: "Traject van meerdere sessies",
+      price: "In overleg",
+      note: "We stemmen samen af wat je nodig hebt.",
+    },
   ],
   footnote:
-    "Deze begeleiding wordt aangeboden in bijberoep. Neem gerust contact op als je vragen hebt over de mogelijkheden.",
+    "Deze begeleiding wordt aangeboden in bijberoep. De vermelde tarieven zijn indicatief en worden bij een kennismaking bevestigd. Heb je vragen over de mogelijkheden? Neem gerust contact op.",
 };
 
 /* ── CONTACT ───────────────────────────────────────────────────────────── */
@@ -206,7 +232,7 @@ export const contact = {
   eyebrow: "Contact",
   title: "Neem gerust contact op",
   intro:
-    "Heb je een vraag, of wil je een eerste kennismaking plannen? Laat een bericht na of bel me. Ik neem zo snel mogelijk contact met je op.",
+    "Heb je een vraag, of wil je een eerste kennismaking plannen? Laat een bericht na of bel me. Je hoeft niet te weten waar te beginnen — dat zoeken we samen uit. Ik neem zo snel mogelijk contact met je op.",
   formNote:
-    "Je bericht komt rechtstreeks bij mij terecht. Alles wat je deelt, behandel ik vertrouwelijk.",
+    "Je bericht komt rechtstreeks bij mij terecht en wordt vertrouwelijk behandeld.",
 };
