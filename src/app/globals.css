@@ -6,6 +6,15 @@
    --font-serif   ->  font-serif
    ───────────────────────────────────────────────────────────────────────── */
 @theme {
+  /* ───────────────────────────────────────────────────────────────────────
+     KLEURVARIANT — Karen kan kiezen tussen twee sferen.
+     Actief: Variant A (salie-groen). Om te wisselen naar Variant B:
+     zet Variant A in commentaar en haal Variant B uit commentaar.
+     De naam "sage" blijft in beide varianten dezelfde token; enkel de
+     kleurwaarde verandert, zodat de rest van de site ongewijzigd blijft.
+     ─────────────────────────────────────────────────────────────────────── */
+
+  /* Variant A — Salie-groen (natuurlijk, aardend, rustig) */
   --color-cream: #fbf8f3;
   --color-sand: #f1eae0;
   --color-sand-deep: #e7ddcf;
@@ -15,6 +24,18 @@
   --color-sage-deep: #5c6a52;
   --color-sage-soft: #aeb9a2;
   --color-clay: #be8a6a;
+
+  /* Variant B — Rozehout / klei (warm, zacht, omhelzend)
+  --color-cream: #fbf6f2;
+  --color-sand: #f3e9e2;
+  --color-sand-deep: #e9d8cc;
+  --color-ink: #3b322e;
+  --color-muted: #776a63;
+  --color-sage: #b08b86;
+  --color-sage-deep: #8a655f;
+  --color-sage-soft: #ddc5c0;
+  --color-clay: #b27a66;
+  */
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, sans-serif;
