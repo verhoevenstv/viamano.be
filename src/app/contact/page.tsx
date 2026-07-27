@@ -7,6 +7,7 @@ import { contact, siteConfig } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Contact",
   description: contact.intro,
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

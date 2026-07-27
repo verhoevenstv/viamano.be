@@ -7,6 +7,7 @@ import { about } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Over mij",
   description: about.intro,
+  alternates: { canonical: "/over-mij" },
 };
 
 export default function OverMijPage() {

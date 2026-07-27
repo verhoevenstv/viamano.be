@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Aanbod",
   description:
     "Rouwbegeleiding, begeleiding na euthanasie en life coaching — begeleiding die aansluit bij wat jij nodig hebt.",
+  alternates: { canonical: "/aanbod" },
 };
 
 export default function AanbodPage() {

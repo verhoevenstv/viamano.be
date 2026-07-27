@@ -7,6 +7,7 @@ import { tarieven } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Tarieven",
   description: tarieven.intro,
+  alternates: { canonical: "/tarieven" },
 };
 
 export default function TarievenPage() {

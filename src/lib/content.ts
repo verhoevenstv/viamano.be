@@ -32,6 +32,31 @@ export const siteConfig = {
   // Eén zin die de kern samenvat (voor deelknoppen / metadata)
   description:
     "Rouwbegeleiding en life coaching in bijberoep. Ik loop met je mee na een verlies — in alle rust, op jouw tempo, tot je de draad van het leven weer kunt oppikken.",
+
+  // ── SEO / bedrijfsgegevens (voor Google & gestructureerde data) ──────────
+  // PLACEHOLDERS — vul in zodra we Karens plaats en gegevens kennen.
+  city: "[plaats]", // gemeente, bv. "Herentals"
+  province: "[provincie]", // bv. "Antwerpen"
+  postalCode: "[postcode]", // bv. "2200"
+  country: "BE",
+  // Laat leeg voor een thuispraktijk "op afspraak" zonder straatadres.
+  streetAddress: "",
+  // Regio's die Karen bedient (voor lokaal zoeken)
+  areaServed: ["[regio 1]", "[regio 2]"],
+  // Indicatie prijsklasse voor Google (€ = laag, €€€€ = hoog)
+  priceRange: "€€",
+  // Links naar sociale media (bv. Facebook/Instagram) — leeg laten indien geen
+  sameAs: [] as string[],
+  // Zoekwoorden waarop we gevonden willen worden
+  keywords: [
+    "rouwconsulente",
+    "rouwbegeleiding",
+    "rouwverwerking",
+    "verlies van een dierbare",
+    "begeleiding na euthanasie",
+    "life coach",
+    "verliesbegeleiding",
+  ],
 };
 
 export const nav = [

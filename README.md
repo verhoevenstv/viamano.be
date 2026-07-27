@@ -48,6 +48,20 @@ npm run typecheck  # types controleren
 Alle teksten staan in **`src/lib/content.ts`**. Je hoeft dus niet in de
 code te zoeken: pas daar de zinnen aan en de hele site volgt.
 
+## SEO
+
+De technische SEO-basis staat ingebouwd:
+
+- Titels + meta-omschrijvingen per pagina, canonical-URL's
+- OpenGraph + Twitter-cards met een social-preview-afbeelding (`public/og-image.png`)
+- Gestructureerde data (JSON-LD): `LocalBusiness` / `ProfessionalService` + diensten — zie `src/components/JsonLd.tsx`
+- Automatische `sitemap.xml` en `robots.txt`, favicon, taal `nl`
+
+De lokale gegevens (plaats, regio, adres, telefoon) staan als placeholders in
+`siteConfig` (`src/lib/content.ts`) — zodra die ingevuld zijn, klopt ook de
+gestructureerde data. Buiten de site: maak een **Google Bedrijfsprofiel** aan
+en dien de sitemap in via **Google Search Console** (grootste hefboom lokaal).
+
 ## Nog in te vullen (placeholders)
 
 Deze zaken staan nu als placeholder in de code en wachten op Karens input:

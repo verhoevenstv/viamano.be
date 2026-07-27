@@ -8,6 +8,7 @@ import { werkwijze } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Werkwijze",
   description: werkwijze.intro,
+  alternates: { canonical: "/werkwijze" },
 };
 
 export default function WerkwijzePage() {
