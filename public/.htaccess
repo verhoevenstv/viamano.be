@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Forceer HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect www naar non-www
+RewriteCond %{HTTP_HOST} ^www\.viamano\.be [NC]
+RewriteRule ^ https://viamano.be%{REQUEST_URI} [L,R=301]

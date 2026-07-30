@@ -26,7 +26,7 @@ export const siteConfig = {
   region: "Regio Lennik & het Pajottenland",
 
   description:
-    "Individuele rouwcoaching bij verlies in al zijn vormen. Een warme, veilige plek waar alles er mag zijn — en waar je stap voor stap opnieuw vertrouwen vindt in het leven.",
+    "Rouwcoach in Lennik en het Pajottenland. Individuele begeleiding bij verlies van een dierbare, echtscheiding of gezondheid. Boek een gratis kennismaking bij Viamano.",
 
   // ── SEO / bedrijfsgegevens ───────────────────────────────────────────────
   city: "Lennik",
@@ -176,7 +176,7 @@ export const about = {
   eyebrow: "Over mij",
   title: "Over Karen",
   intro:
-    "Ik ben Karen Dierickx, rouwcoach bij Viamano. Uit eigen ervaring en vanuit mijn opleiding begeleid ik mensen bij verlies in al zijn vormen.",
+    "Ik ben Karen Dierickx, rouwcoach in Lennik. Vanuit eigen ervaring en mijn opleiding begeleid ik mensen bij verlies — van overlijden tot echtscheiding. Ontdek mijn verhaal.",
   paragraphs: [
     "Ik ben Karen Dierickx. Ik volgde een opleiding in het begeleiden en ondersteunen van mensen tijdens ingrijpende levensgebeurtenissen en verlies. Mijn grootste leerschool was echter mijn eigen leven.",
     "Toen mijn echtgenoot overleed, veranderde mijn wereld volledig. Ik weet hoe eenzaam verlies kan voelen, hoeveel goedbedoelde adviezen soms pijn doen, en hoe belangrijk het is dat iemand gewoon naast je blijft staan.",
@@ -206,7 +206,7 @@ export const werkwijze = {
   eyebrow: "Werkwijze",
   title: "Hoe een begeleiding verloopt",
   intro:
-    "Elke begeleiding is persoonlijk en vertrekt vanuit jouw verhaal. Toch geef ik je graag een idee van hoe het meestal verloopt.",
+    "Van kennismaking tot persoonlijke rouwcoaching in Lennik. Ontdek stap voor stap hoe een begeleidingstraject bij Viamano verloopt.",
   steps: [
     {
       title: "Kennismaking",
@@ -242,7 +242,7 @@ export const tarieven = {
   eyebrow: "Tarieven",
   title: "Tarieven",
   intro:
-    "Duidelijkheid en rust, ook over het praktische.",
+    "Transparante tarieven voor rouwcoaching bij Viamano in Lennik. Kennismakingsgesprek altijd gratis en vrijblijvend.",
   items: [
     {
       label: "Kennismakingsgesprek",
@@ -265,7 +265,7 @@ export const contact = {
   eyebrow: "Contact",
   title: "Neem gerust contact op",
   intro:
-    "Heb je een vraag, of wil je een vrijblijvende kennismaking plannen? Laat een bericht na of bel me. Je hoeft niet te weten waar te beginnen — dat zoeken we samen uit. Ik neem zo snel mogelijk contact met je op.",
+    "Neem contact op met Viamano voor rouwcoaching in Lennik en het Pajottenland. Plan een gratis kennismakingsgesprek of stel je vraag — ik reageer zo snel mogelijk.",
   formNote:
     "Je bericht komt rechtstreeks bij mij terecht en wordt vertrouwelijk behandeld.",
 };

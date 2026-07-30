@@ -7,7 +7,7 @@ import { services } from "@/lib/content";
 import { icons } from "@/components/Icons";
 
 const desc =
-  "Individuele rouwcoaching bij verlies in al zijn vormen — begeleiding die aansluit bij jouw verhaal en jouw tempo.";
+  "Rouwcoaching op maat in Lennik: begeleiding bij verlies van een dierbare, echtscheiding of gezondheid. Ontdek het aanbod van Viamano.";
 
 export const metadata: Metadata = {
   title: "Aanbod",

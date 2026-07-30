@@ -14,7 +14,7 @@ export function SiteFooter() {
           <div>
             <Image
               src="/logos/viamano-logo-creme-transparant.png"
-              alt={`${siteConfig.name} — ${siteConfig.tagline}`}
+              alt="Viamano logo — rouw- en verliescoaching in het Pajottenland"
               width={3057}
               height={1797}
               className="h-auto w-56"

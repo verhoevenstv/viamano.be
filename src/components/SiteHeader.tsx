@@ -22,7 +22,7 @@ export function SiteHeader() {
         >
           <Image
             src="/logo-mark-navy.png"
-            alt=""
+            alt="Viamano handafdruk-logo"
             width={431}
             height={504}
             priority
