@@ -10,19 +10,19 @@
  */
 
 export const palette = {
-  cream: "#F5ECDB", // warme crème achtergrond
-  sand: "#ECE0C9", // iets dieper crème voor vlakken
+  cream: "#F5ECDB", // warme crème / zand achtergrond
+  sand: "#ECE0C9", // iets dieper zand voor vlakken
   sandDeep: "#DDCEB2", // randen / lijnen
-  ink: "#2C4459", // hoofdtekst & koppen (diep navy)
-  muted: "#5F6B76", // secundaire tekst (gedempt)
-  sage: "#436383", // medium navy (hover) — accenttoken "sage"
-  sageDeep: "#33506B", // primair navy — knoppen, labels, CTA
-  sageSoft: "#B9C6D3", // licht blauwgrijs (subtiel / op donker)
-  clay: "#A67F3F", // goud-accent voor tekst (spaarzaam)
-  navy: "#33506B", // merk-navy
-  slate: "#5F7185", // blauwgrijze vlakken
-  slateSoft: "#C3CCD6", // lichte tekst op navy/slate
-  gold: "#C39A5B", // goud accentlijn
+  ink: "#16434C", // hoofdtekst & koppen (diep petrol)
+  muted: "#5A6B6A", // secundaire tekst (gedempt petrol-grijs)
+  sage: "#2C6B73", // medium petrol (hover) — accenttoken "sage"
+  sageDeep: "#1D5560", // primair petroleumblauw — knoppen, labels, CTA
+  sageSoft: "#A7C5C5", // licht petrol (subtiel / op donker)
+  clay: "#A67C2C", // oker-accent voor tekst (spaarzaam)
+  navy: "#1D5560", // petrol (tokennaam behouden)
+  slate: "#275C63", // donkere petrol-vlakken
+  slateSoft: "#BCD2D0", // lichte tekst op petrol
+  gold: "#C8983A", // oker accentlijn
 } as const;
 
 export const fonts = {

@@ -66,6 +66,22 @@ export function ContactForm() {
       </div>
 
       <div>
+        <label htmlFor="onderwerp" className="mb-1.5 block text-sm text-ink">
+          Onderwerp
+        </label>
+        <select
+          id="onderwerp"
+          name="onderwerp"
+          defaultValue="Vrijblijvende kennismaking aanvragen"
+          className="w-full rounded-xl border border-sand-deep bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-sage"
+        >
+          <option>Vrijblijvende kennismaking aanvragen</option>
+          <option>Een algemene vraag</option>
+          <option>Iets anders</option>
+        </select>
+      </div>
+
+      <div>
         <label htmlFor="bericht" className="mb-1.5 block text-sm text-ink">
           Je bericht
         </label>

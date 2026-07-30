@@ -7,34 +7,33 @@
    ───────────────────────────────────────────────────────────────────────── */
 @theme {
   /* ───────────────────────────────────────────────────────────────────────
-     MERKKLEUREN — afgeleid van het Viamano-logo (blauwe handafdruk).
-       navy   = diep blauw van de handafdruk & letters
-       crème  = warme, zachte achtergrond
-       slate  = blauwgrijze tint (donkere vlakken)
-       goud   = fijne accentlijn
+     MERKKLEUREN — Viamano.
+       petrol = petroleumblauw, de basiskleur (handafdruk, tekst, knoppen)
+       crème/zand = warme, zachte achtergronden (zand- en aardetinten)
+       oker   = warm goud/oker accent
      De accenttoken heet historisch "sage"; de waarden zijn nu de
-     merkkleuren, zodat de rest van de site ongewijzigd blijft werken.
+     petrol-merkkleuren, zodat de rest van de site ongewijzigd blijft werken.
      ─────────────────────────────────────────────────────────────────────── */
 
-  --color-cream: #f5ecdb; /* warme crème achtergrond */
-  --color-sand: #ece0c9; /* iets dieper crème voor vlakken */
+  --color-cream: #f5ecdb; /* warme crème / zand achtergrond */
+  --color-sand: #ece0c9; /* iets dieper zand voor vlakken */
   --color-sand-deep: #ddceb2; /* randen / lijnen */
 
-  --color-ink: #2c4459; /* hoofdtekst & koppen (diep navy) */
-  --color-muted: #5f6b76; /* secundaire tekst (gedempt) */
+  --color-ink: #16434c; /* hoofdtekst & koppen (diep petrol) */
+  --color-muted: #5a6b6a; /* secundaire tekst (gedempt petrol-grijs) */
 
-  /* Navy-accent — knoppen, labels, CTA */
-  --color-sage: #436383; /* medium navy (hover) */
-  --color-sage-deep: #33506b; /* primair navy */
-  --color-sage-soft: #b9c6d3; /* licht blauwgrijs (subtiel / op donker) */
+  /* Petrol-accent — knoppen, labels, CTA */
+  --color-sage: #2c6b73; /* medium petrol (hover) */
+  --color-sage-deep: #1d5560; /* primair petroleumblauw */
+  --color-sage-soft: #a7c5c5; /* licht petrol (subtiel / op donker) */
 
-  --color-clay: #a67f3f; /* goud-accent voor tekst (spaarzaam) */
+  --color-clay: #a67c2c; /* oker-accent voor tekst (spaarzaam) */
 
   /* Extra semantische merktokens */
-  --color-navy: #33506b;
-  --color-slate: #5f7185; /* blauwgrijze vlakken */
-  --color-slate-soft: #c3ccd6; /* lichte tekst op navy/slate */
-  --color-gold: #c39a5b; /* goud accentlijn */
+  --color-navy: #1d5560; /* petrol (behoudt tokennaam) */
+  --color-slate: #275c63; /* donkere petrol-vlakken */
+  --color-slate-soft: #bcd2d0; /* lichte tekst op petrol */
+  --color-gold: #c8983a; /* oker accentlijn */
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, sans-serif;

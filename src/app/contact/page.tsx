@@ -57,6 +57,13 @@ export default function ContactPage() {
                 <dt className="text-sage-deep">Regio</dt>
                 <dd className="mt-1 text-ink">{siteConfig.region}</dd>
               </div>
+              <div>
+                <dt className="text-sage-deep">Beschikbaarheid</dt>
+                <dd className="mt-1 text-ink">
+                  Steeds op afspraak — overdag, en enkele avonden, op zaterdag
+                  of zondag.
+                </dd>
+              </div>
             </dl>
           </aside>
         </div>

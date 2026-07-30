@@ -21,20 +21,31 @@ export const siteConfig = {
   url: "https://viamano.be",
 
   email: "karen@viamano.be",
+  // PLACEHOLDER — Karens telefoonnummer nog invullen
   phone: "+32 (0)4XX XX XX XX",
-  region: "Regio [plaats], België",
+  region: "Regio Lennik & het Pajottenland",
 
   description:
     "Individuele rouwcoaching bij verlies in al zijn vormen. Een warme, veilige plek waar alles er mag zijn — en waar je stap voor stap opnieuw vertrouwen vindt in het leven.",
 
   // ── SEO / bedrijfsgegevens ───────────────────────────────────────────────
-  // PLACEHOLDERS — vul in zodra we Karens plaats en gegevens kennen.
-  city: "[plaats]",
-  province: "[provincie]",
-  postalCode: "[postcode]",
+  city: "Lennik",
+  province: "Vlaams-Brabant",
+  postalCode: "1750",
   country: "BE",
+  // Op afspraak — geen straatadres op de site
   streetAddress: "",
-  areaServed: ["[regio 1]", "[regio 2]"],
+  areaServed: [
+    "Lennik",
+    "Dilbeek",
+    "Gooik",
+    "Pepingen",
+    "Halle",
+    "Ternat",
+    "Roosdaal",
+    "Ninove",
+    "Pajottenland",
+  ],
   priceRange: "€€",
   sameAs: [] as string[],
   keywords: [
@@ -73,10 +84,10 @@ export const home = {
 
   welcome: {
     eyebrow: "Welkom",
-    title: "Je hoeft er niet alleen doorheen te gaan",
+    title: "Een plek om even te landen",
     paragraphs: [
-      "Rouw is veel breder dan het overlijden van een dierbare. Ook het verlies van gezondheid, een relatie, werk, een kinderwens, toekomstplannen of andere ingrijpende veranderingen kan je diep raken. Elk verlies verdient erkenning.",
-      "Bij Viamano vind je een warme, veilige plek waar alles er mag zijn: verdriet, stilte, boosheid, onzekerheid, liefde en hoop. Mijn wens is dat je je gehoord voelt en stap voor stap opnieuw vertrouwen vindt in het leven — zonder te vergeten wat of wie voor jou waardevol is geweest.",
+      "Rouw is geen probleem dat opgelost moet worden. Het is een weg die iedereen op zijn eigen tempo aflegt — welke vorm het verlies ook aanneemt: het verlies van een dierbare, van gezondheid, van werk, van een relatie of van het leven zoals het was.",
+      "Bij Viamano vind je een warme, veilige plek waar alles er mag zijn: verdriet, stilte, boosheid, onzekerheid, liefde en hoop. Een plek waar niets moet, en waar opnieuw ademruimte mag ontstaan. Mijn wens is dat je je gehoord voelt en stap voor stap opnieuw vertrouwen vindt in het leven — zonder te vergeten wat of wie voor jou waardevol is geweest.",
     ],
   },
 
@@ -156,8 +167,8 @@ export const about = {
     "Ik ben Karen Dierickx. Ik volgde een opleiding in het begeleiden en ondersteunen van mensen tijdens ingrijpende levensgebeurtenissen en verlies. Mijn grootste leerschool was echter mijn eigen leven.",
     "Toen mijn echtgenoot overleed, veranderde mijn wereld volledig. Ik weet hoe eenzaam verlies kan voelen, hoeveel goedbedoelde adviezen soms pijn doen, en hoe belangrijk het is dat iemand gewoon naast je blijft staan.",
     "Door mijn persoonlijke ervaring besef ik dat verlies vele gezichten heeft. Niet alleen het overlijden van een dierbare, maar ook een echtscheiding, een ernstige ziekte, het verlies van werk, een onvervulde kinderwens of andere ingrijpende veranderingen kunnen je fundament doen wankelen.",
-    "Ik verloor mijn echtgenoot na een relatie van eenentwintig jaar. Dat verlies confronteerde me niet alleen met intens verdriet, maar ook met de zoektocht naar een nieuw leven waarin liefde en gemis naast elkaar mogen bestaan.",
-    "Die combinatie van professionele vorming en persoonlijke ervaring vormt vandaag de basis van Viamano.",
+    "Ik verloor mijn echtgenoot na een relatie van eenentwintig jaar. Juist daardoor weet ik hoe belangrijk het is dat iemand écht aanwezig is — niet om oplossingen te geven, maar om samen een stukje van de weg te bewandelen, ongeacht welk verlies je te dragen kreeg.",
+    "Viamano is ontstaan vanuit die overtuiging. Die combinatie van professionele vorming en persoonlijke ervaring vormt vandaag de basis van mijn werk.",
   ],
   values: [
     {
@@ -203,10 +214,10 @@ export const werkwijze = {
   practical: {
     title: "Praktisch",
     items: [
-      "Gesprekken vinden plaats in een warme, huiselijke praktijkruimte waar rust en veiligheid centraal staan.",
+      "Gesprekken gaan door op afspraak, in een warme en huiselijke praktijkruimte in regio Lennik waar rust en veiligheid centraal staan.",
+      "Overdag op afspraak, en daarnaast enkele avonden, op zaterdag of zondag.",
       "Indien gewenst kunnen gesprekken ook wandelend of online plaatsvinden.",
-      "Een eerste kennismaking is altijd vrijblijvend.",
-      "Alles wat je deelt, blijft vertrouwelijk.",
+      "Een eerste kennismaking is altijd vrijblijvend en alles wat je deelt, blijft vertrouwelijk.",
     ],
   },
 };
