@@ -1,0 +1,45 @@
+name: Deploy naar site.eu
+
+# Bouwt de site en zet ze via SSH (rsync) op de webruimte van site.eu.
+# Draait automatisch bij elke push naar de ontwikkelbranch, en kan ook
+# handmatig gestart worden (workflow_dispatch).
+on:
+  push:
+    branches: [claude/rouwconsulente-website-0j3nac]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Node.js opzetten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Dependencies installeren
+        run: npm ci
+
+      - name: Statische site bouwen (map: out/)
+        run: npm run build
+
+      - name: SSH-sleutel klaarzetten
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "${{ secrets.SSH_PORT }}" "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Uploaden via rsync over SSH
+        run: |
+          rsync -avz --delete \
+            --exclude '.well-known' \
+            --exclude 'cgi-bin' \
+            -e "ssh -p ${{ secrets.SSH_PORT }} -i ~/.ssh/deploy_key" \
+            out/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.DEPLOY_PATH }}"
