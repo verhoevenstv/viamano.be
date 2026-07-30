@@ -81,17 +81,14 @@ function smtpSend(array $cfg, string $subject, string $body, string $replyTo, st
     $ehlo = smtpRead($sock);
     if (substr($ehlo, 0, 3) !== '250') return "EHLO mislukt: $ehlo";
 
-    smtpWrite($sock, "AUTH LOGIN");
+    smtpWrite($sock, "AUTH PLAIN");
     $auth = smtpRead($sock);
     if (substr($auth, 0, 3) !== '334') return "AUTH mislukt: $auth";
 
-    smtpWrite($sock, base64_encode($cfg['smtp_user']));
-    $user = smtpRead($sock);
-    if (substr($user, 0, 3) !== '334') return "User mislukt: $user";
-
-    smtpWrite($sock, base64_encode($cfg['smtp_password']));
+    $credentials = base64_encode("\0" . $cfg['smtp_user'] . "\0" . $cfg['smtp_password']);
+    smtpWrite($sock, $credentials);
     $pass = smtpRead($sock);
-    if (substr($pass, 0, 3) !== '235') return "Wachtwoord mislukt: $pass";
+    if (substr($pass, 0, 3) !== '235') return "Authenticatie mislukt: $pass";
 
     smtpWrite($sock, "MAIL FROM:<{$cfg['from_email']}>");
     $from = smtpRead($sock);
