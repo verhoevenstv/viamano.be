@@ -13,7 +13,7 @@ export function JsonLd() {
 
   const business = {
     "@context": "https://schema.org",
-    "@type": ["ProfessionalService", "LocalBusiness"],
+    "@type": ["ProfessionalService", "LocalBusiness", "CounselingService"],
     "@id": businessId,
     name: siteConfig.name,
     description: siteConfig.description,
@@ -37,9 +37,33 @@ export function JsonLd() {
       "@type": "Place",
       name: area,
     })),
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 50.7985,
+      longitude: 4.1575,
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+        ],
+        opens: "09:00",
+        closes: "18:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Saturday", "Sunday"],
+        description: "Op afspraak",
+      },
+    ],
     founder: {
       "@type": "Person",
-      name: "Karen",
+      name: "Karen Dierickx",
       jobTitle: siteConfig.role,
     },
     knowsAbout: [

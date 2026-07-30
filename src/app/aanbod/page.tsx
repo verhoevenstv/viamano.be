@@ -6,11 +6,22 @@ import { Container } from "@/components/Container";
 import { services } from "@/lib/content";
 import { icons } from "@/components/Icons";
 
+const desc =
+  "Individuele rouwcoaching bij verlies in al zijn vormen — begeleiding die aansluit bij jouw verhaal en jouw tempo.";
+
 export const metadata: Metadata = {
   title: "Aanbod",
-  description:
-    "Individuele rouwcoaching bij verlies in al zijn vormen — begeleiding die aansluit bij jouw verhaal en jouw tempo.",
-  alternates: { canonical: "/aanbod" },
+  description: desc,
+  alternates: { canonical: "/aanbod/" },
+  openGraph: {
+    title: "Aanbod — Viamano",
+    description: desc,
+    url: "https://viamano.be/aanbod/",
+  },
+  twitter: {
+    title: "Aanbod — Viamano",
+    description: desc,
+  },
 };
 
 export default function AanbodPage() {

@@ -7,7 +7,16 @@ import { tarieven } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Tarieven",
   description: tarieven.intro,
-  alternates: { canonical: "/tarieven" },
+  alternates: { canonical: "/tarieven/" },
+  openGraph: {
+    title: "Tarieven — Viamano",
+    description: tarieven.intro,
+    url: "https://viamano.be/tarieven/",
+  },
+  twitter: {
+    title: "Tarieven — Viamano",
+    description: tarieven.intro,
+  },
 };
 
 export default function TarievenPage() {

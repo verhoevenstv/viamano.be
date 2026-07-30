@@ -7,7 +7,16 @@ import { contact, siteConfig } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Contact",
   description: contact.intro,
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: "/contact/" },
+  openGraph: {
+    title: "Contact — Viamano",
+    description: contact.intro,
+    url: "https://viamano.be/contact/",
+  },
+  twitter: {
+    title: "Contact — Viamano",
+    description: contact.intro,
+  },
 };
 
 export default function ContactPage() {

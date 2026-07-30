@@ -8,7 +8,16 @@ import { werkwijze } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Werkwijze",
   description: werkwijze.intro,
-  alternates: { canonical: "/werkwijze" },
+  alternates: { canonical: "/werkwijze/" },
+  openGraph: {
+    title: "Werkwijze — Viamano",
+    description: werkwijze.intro,
+    url: "https://viamano.be/werkwijze/",
+  },
+  twitter: {
+    title: "Werkwijze — Viamano",
+    description: werkwijze.intro,
+  },
 };
 
 export default function WerkwijzePage() {

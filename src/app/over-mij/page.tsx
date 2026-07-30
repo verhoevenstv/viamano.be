@@ -7,7 +7,16 @@ import { about } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Over mij",
   description: about.intro,
-  alternates: { canonical: "/over-mij" },
+  alternates: { canonical: "/over-mij/" },
+  openGraph: {
+    title: "Over mij — Viamano",
+    description: about.intro,
+    url: "https://viamano.be/over-mij/",
+  },
+  twitter: {
+    title: "Over mij — Viamano",
+    description: about.intro,
+  },
 };
 
 export default function OverMijPage() {
