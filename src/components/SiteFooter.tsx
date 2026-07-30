@@ -72,7 +72,16 @@ export function SiteFooter() {
 
         <div className="mt-12 border-t border-white/10 pt-6 text-xs text-slate-soft">
           <p>
-            © {year} {siteConfig.name} — {siteConfig.domain}. Met zorg gemaakt.
+            © {year} {siteConfig.name} — {siteConfig.domain}. Website door{" "}
+            <a
+              href="https://e-csplic.be"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold transition-colors hover:text-cream"
+            >
+              get-ict.be
+            </a>
+            .
           </p>
         </div>
       </Container>
