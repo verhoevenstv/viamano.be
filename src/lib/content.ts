@@ -20,8 +20,7 @@ export const siteConfig = {
   domain: "viamano.be",
   url: "https://viamano.be",
 
-  // PLACEHOLDER — vervang door Karens echte gegevens (nog niet ontvangen)
-  email: "hallo@viamano.be",
+  email: "karen@viamano.be",
   phone: "+32 (0)4XX XX XX XX",
   region: "Regio [plaats], België",
 
