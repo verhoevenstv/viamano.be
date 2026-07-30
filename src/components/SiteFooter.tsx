@@ -10,25 +10,15 @@ export function SiteFooter() {
     <footer className="bg-ink text-cream">
       <Container className="py-16">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Naam + tagline */}
+          {/* Volledig logo + korte omschrijving */}
           <div>
             <Image
-              src="/logo-mark-cream.png"
-              alt=""
-              width={431}
-              height={504}
-              className="mb-4 h-14 w-auto"
+              src="/logos/viamano-logo-creme-transparant.png"
+              alt={`${siteConfig.name} — ${siteConfig.tagline}`}
+              width={3057}
+              height={1797}
+              className="h-auto w-56"
             />
-            <p className="font-serif text-3xl lowercase tracking-[0.02em] text-cream">
-              {siteConfig.name}
-            </p>
-            <div
-              aria-hidden="true"
-              className="mt-3 h-px w-16 bg-gold"
-            />
-            <p className="mt-3 text-sm italic text-slate-soft">
-              {siteConfig.tagline}
-            </p>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-slate-soft">
               {siteConfig.description}
             </p>
