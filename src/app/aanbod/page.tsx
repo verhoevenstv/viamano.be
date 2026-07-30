@@ -9,7 +9,7 @@ import { icons } from "@/components/Icons";
 export const metadata: Metadata = {
   title: "Aanbod",
   description:
-    "Rouwbegeleiding, begeleiding na euthanasie en life coaching — begeleiding die aansluit bij wat jij nodig hebt.",
+    "Individuele rouwcoaching bij verlies in al zijn vormen — begeleiding die aansluit bij jouw verhaal en jouw tempo.",
   alternates: { canonical: "/aanbod" },
 };
 

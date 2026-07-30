@@ -44,10 +44,12 @@ export function JsonLd() {
     },
     knowsAbout: [
       "Rouwbegeleiding",
+      "Rouwcoaching",
       "Rouwverwerking",
       "Verlies van een dierbare",
-      "Begeleiding na euthanasie",
-      "Life coaching",
+      "Verlies van gezondheid",
+      "Echtscheiding",
+      "Verliesverwerking",
     ],
     ...(siteConfig.sameAs.length ? { sameAs: siteConfig.sameAs } : {}),
     hasOfferCatalog: {
