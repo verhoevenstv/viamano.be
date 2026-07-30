@@ -41,5 +41,6 @@ jobs:
           rsync -avz --delete \
             --exclude '.well-known' \
             --exclude 'cgi-bin' \
+            --exclude 'contact-config.php' \
             -e "ssh -p ${{ secrets.SSH_PORT }} -i ~/.ssh/deploy_key" \
             out/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.DEPLOY_PATH }}"

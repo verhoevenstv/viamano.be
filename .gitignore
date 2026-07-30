@@ -30,6 +30,9 @@ yarn-error.log*
 .env*.local
 .env
 
+# SMTP credentials (staat alleen op de server)
+public/contact-config.php
+
 # vercel
 .vercel
 
