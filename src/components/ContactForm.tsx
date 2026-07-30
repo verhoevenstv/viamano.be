@@ -2,34 +2,39 @@
 
 import { useState, type FormEvent } from "react";
 
-/**
- * Contactformulier.
- *
- * TODO (technisch): koppel dit aan een echte e-maildienst voordat de site
- * live gaat. Mogelijkheden:
- *   - Formspree / Getform (geen server nodig, gewoon een endpoint)
- *   - of een eigen API-route met bv. Resend
- * Nu toont het formulier enkel een bevestiging aan de bezoeker en verstuurt
- * het nog niets.
- */
 export function ContactForm() {
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // PLACEHOLDER: hier komt de echte verzending.
-    setSent(true);
+    setStatus("sending");
+    setErrorMsg("");
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch("/contact.php", { method: "POST", body: data });
+      if (res.ok) {
+        setStatus("sent");
+      } else {
+        const json = await res.json().catch(() => null);
+        setErrorMsg(json?.error ?? "Er ging iets mis. Probeer het later opnieuw.");
+        setStatus("error");
+      }
+    } catch {
+      setErrorMsg("Geen verbinding met de server. Controleer je internetverbinding.");
+      setStatus("error");
+    }
   }
 
-  if (sent) {
+  if (status === "sent") {
     return (
       <div className="rounded-2xl border border-sage-soft bg-sand p-8 text-center">
         <p className="font-serif text-xl text-ink">Dank je voor je bericht.</p>
         <p className="mt-2 text-sm text-muted">
           Ik neem zo snel mogelijk contact met je op.
-        </p>
-        <p className="mt-4 text-xs text-clay">
-          (Demo: dit formulier moet nog aan een e-maildienst gekoppeld worden.)
         </p>
       </div>
     );
@@ -37,6 +42,11 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      {/* Honeypot — onzichtbaar voor bezoekers, vangt spam */}
+      <div className="absolute -left-[9999px]" aria-hidden="true">
+        <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+      </div>
+
       <div>
         <label htmlFor="naam" className="mb-1.5 block text-sm text-ink">
           Naam
@@ -94,11 +104,18 @@ export function ContactForm() {
         />
       </div>
 
+      {status === "error" && (
+        <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">
+          {errorMsg}
+        </p>
+      )}
+
       <button
         type="submit"
-        className="inline-flex items-center justify-center rounded-full bg-sage-deep px-6 py-3 text-sm font-medium text-cream transition-colors hover:bg-sage focus:outline-none focus-visible:ring-2 focus-visible:ring-sage focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
+        disabled={status === "sending"}
+        className="inline-flex items-center justify-center rounded-full bg-sage-deep px-6 py-3 text-sm font-medium text-cream transition-colors hover:bg-sage focus:outline-none focus-visible:ring-2 focus-visible:ring-sage focus-visible:ring-offset-2 focus-visible:ring-offset-cream disabled:opacity-60"
       >
-        Verstuur bericht
+        {status === "sending" ? "Bezig met verzenden…" : "Verstuur bericht"}
       </button>
     </form>
   );
