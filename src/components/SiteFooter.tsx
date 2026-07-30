@@ -19,7 +19,7 @@ export function SiteFooter() {
               height={504}
               className="mb-4 h-14 w-auto"
             />
-            <p className="font-serif text-2xl uppercase tracking-[0.3em] text-cream">
+            <p className="font-serif text-3xl lowercase tracking-[0.02em] text-cream">
               {siteConfig.name}
             </p>
             <div

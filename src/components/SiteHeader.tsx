@@ -29,7 +29,7 @@ export function SiteHeader() {
             className="h-11 w-auto"
           />
           <span className="flex flex-col leading-none">
-            <span className="font-serif text-2xl uppercase tracking-[0.3em] text-ink">
+            <span className="font-serif text-3xl lowercase tracking-[0.02em] text-ink">
               {siteConfig.name}
             </span>
             <span className="mt-1 flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-sage-deep">

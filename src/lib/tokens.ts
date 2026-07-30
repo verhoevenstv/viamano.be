@@ -1,11 +1,11 @@
 /**
- * Design tokens — het kleuren- en typografiepalet van Amano.
+ * Design tokens — het kleuren- en typografiepalet van Viamano.
  *
  * De échte waarden leven in `src/app/globals.css` (Tailwind v4 `@theme`),
  * zodat ze als utility-klassen beschikbaar zijn (bv. `bg-cream`, `text-sage`).
  * Dit bestand documenteert ze op één plek, zodat je snel ziet wat er is.
  *
- * Sfeer: afgeleid van het Amano-logo — diep navy-blauw en warme crème,
+ * Sfeer: afgeleid van het Viamano-logo — diep navy-blauw en warme crème,
  * met een blauwgrijze (slate) tint en een fijn goud accent.
  */
 

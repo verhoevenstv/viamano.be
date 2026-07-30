@@ -130,7 +130,7 @@ export const intakeSections: IntakeSection[] = [
       {
         id: "s5q4",
         label: "Heb je al een domeinnaam (webadres), of kiezen we die samen?",
-        hint: "bv. amano.be",
+        hint: "bv. viamano.be",
         type: "text",
       },
       {

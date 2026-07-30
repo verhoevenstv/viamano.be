@@ -14,14 +14,14 @@
  */
 
 export const siteConfig = {
-  name: "Amano",
+  name: "Viamano",
   role: "Rouw- en verliescoaching",
   tagline: "Ruimte voor verlies. Verbinding in rouw. Hoop.",
-  domain: "amano.be",
-  url: "https://amano.be",
+  domain: "viamano.be",
+  url: "https://viamano.be",
 
   // PLACEHOLDER — vervang door Karens echte gegevens (nog niet ontvangen)
-  email: "hallo@amano.be",
+  email: "hallo@viamano.be",
   phone: "+32 (0)4XX XX XX XX",
   region: "Regio [plaats], België",
 
@@ -77,7 +77,7 @@ export const home = {
     title: "Je hoeft er niet alleen doorheen te gaan",
     paragraphs: [
       "Rouw is veel breder dan het overlijden van een dierbare. Ook het verlies van gezondheid, een relatie, werk, een kinderwens, toekomstplannen of andere ingrijpende veranderingen kan je diep raken. Elk verlies verdient erkenning.",
-      "Bij Amano vind je een warme, veilige plek waar alles er mag zijn: verdriet, stilte, boosheid, onzekerheid, liefde en hoop. Mijn wens is dat je je gehoord voelt en stap voor stap opnieuw vertrouwen vindt in het leven — zonder te vergeten wat of wie voor jou waardevol is geweest.",
+      "Bij Viamano vind je een warme, veilige plek waar alles er mag zijn: verdriet, stilte, boosheid, onzekerheid, liefde en hoop. Mijn wens is dat je je gehoord voelt en stap voor stap opnieuw vertrouwen vindt in het leven — zonder te vergeten wat of wie voor jou waardevol is geweest.",
     ],
   },
 
@@ -91,7 +91,7 @@ export const home = {
   aboutTeaser: {
     eyebrow: "Over mij",
     title: "Ik spreek uit ervaring",
-    text: "Ik ben Karen Dierickx. Na het overlijden van mijn echtgenoot ontdekte ik hoe ingrijpend verlies je leven kan veranderen — niet alleen omdat je iemand mist, maar ook omdat je jezelf soms lijkt kwijt te raken. Die ervaring, samen met mijn opleiding in het begeleiden van mensen, vormt vandaag de basis van Amano.",
+    text: "Ik ben Karen Dierickx. Na het overlijden van mijn echtgenoot ontdekte ik hoe ingrijpend verlies je leven kan veranderen — niet alleen omdat je iemand mist, maar ook omdat je jezelf soms lijkt kwijt te raken. Die ervaring, samen met mijn opleiding in het begeleiden van mensen, vormt vandaag de basis van Viamano.",
     cta: { label: "Lees mijn verhaal", href: "/over-mij" },
   },
 
@@ -152,13 +152,13 @@ export const about = {
   eyebrow: "Over mij",
   title: "Over Karen",
   intro:
-    "Ik ben Karen Dierickx, rouwcoach bij Amano. Uit eigen ervaring en vanuit mijn opleiding begeleid ik mensen bij verlies in al zijn vormen.",
+    "Ik ben Karen Dierickx, rouwcoach bij Viamano. Uit eigen ervaring en vanuit mijn opleiding begeleid ik mensen bij verlies in al zijn vormen.",
   paragraphs: [
     "Ik ben Karen Dierickx. Ik volgde een opleiding in het begeleiden en ondersteunen van mensen tijdens ingrijpende levensgebeurtenissen en verlies. Mijn grootste leerschool was echter mijn eigen leven.",
     "Toen mijn echtgenoot overleed, veranderde mijn wereld volledig. Ik weet hoe eenzaam verlies kan voelen, hoeveel goedbedoelde adviezen soms pijn doen, en hoe belangrijk het is dat iemand gewoon naast je blijft staan.",
     "Door mijn persoonlijke ervaring besef ik dat verlies vele gezichten heeft. Niet alleen het overlijden van een dierbare, maar ook een echtscheiding, een ernstige ziekte, het verlies van werk, een onvervulde kinderwens of andere ingrijpende veranderingen kunnen je fundament doen wankelen.",
     "Ik verloor mijn echtgenoot na een relatie van eenentwintig jaar. Dat verlies confronteerde me niet alleen met intens verdriet, maar ook met de zoektocht naar een nieuw leven waarin liefde en gemis naast elkaar mogen bestaan.",
-    "Die combinatie van professionele vorming en persoonlijke ervaring vormt vandaag de basis van Amano.",
+    "Die combinatie van professionele vorming en persoonlijke ervaring vormt vandaag de basis van Viamano.",
   ],
   values: [
     {
