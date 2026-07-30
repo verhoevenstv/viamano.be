@@ -5,7 +5,7 @@ name: Deploy naar site.eu
 # handmatig gestart worden (workflow_dispatch).
 on:
   push:
-    branches: [claude/rouwconsulente-website-0j3nac]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
