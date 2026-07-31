@@ -81,6 +81,7 @@ export const nav = [
   { label: "Aanbod", href: "/aanbod" },
   { label: "Werkwijze", href: "/werkwijze" },
   { label: "Tarieven", href: "/tarieven" },
+  { label: "FAQ", href: "/veelgestelde-vragen" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -257,6 +258,188 @@ export const tarieven = {
   ],
   footnote:
     "Heb je vragen over de mogelijkheden of over een traject? Neem gerust contact op.",
+};
+
+/* ── VEELGESTELDE VRAGEN ──────────────────────────────────────────────── */
+
+export const faq = {
+  eyebrow: "Veelgestelde vragen",
+  title: "Antwoorden op veelgestelde vragen",
+  intro:
+    "Veelgestelde vragen over rouwcoaching bij Viamano in Lennik. Wat is rouwcoaching, voor wie is het, en hoe werkt een traject? Vind hier het antwoord.",
+
+  items: [
+    {
+      question: "Wat is rouwcoaching precies?",
+      answer:
+        "Rouwcoaching is begeleiding bij verlies. Het is een veilige plek waar je je verhaal mag vertellen, je gevoelens mag voelen en op jouw tempo mag zoeken naar ademruimte en richting. Er is geen vast stappenplan. Ik loop met je mee — niet voor je, niet boven je, maar naast je.",
+    },
+    {
+      question: "Wat is het verschil tussen rouwcoaching en rouwtherapie?",
+      answer:
+        "Rouwcoaching is ondersteunend en begeleidend. Het richt zich op ruimte geven en het integreren van het verlies in je leven. Rouwtherapie is meer behandelend en komt vooral in beeld bij vastgelopen, gecompliceerde of traumatische rouw. Bij Viamano werk ik coachend. Als therapie nodig blijkt, verwijs ik je door.",
+    },
+    {
+      question: "Voor wie is rouwcoaching geschikt?",
+      answer:
+        "Voor iedereen die te maken heeft met verlies en behoefte heeft aan steun. Dat kan het overlijden van een dierbare zijn, maar ook het verlies van gezondheid, een relatie, werk, een kinderwens of het leven zoals het was. Of je net een verlies hebt meegemaakt of al langer meedraagt: je bent welkom.",
+    },
+    {
+      question: "Wanneer is rouwcoaching zinvol?",
+      answer:
+        "Wanneer je voelt dat je er niet alleen mee verder wilt of kunt. Wanneer het verdriet zwaar weegt, wanneer je vastloopt, of wanneer je gewoon iemand zoekt die meeloopt zonder oordeel. Je hoeft niet \"erg genoeg\" te rouwen. Als jij het nodig hebt, is het zinvol.",
+    },
+    {
+      question: "Hoe werkt een traject bij Viamano?",
+      answer:
+        "We beginnen altijd met een vrijblijvend kennismakingsgesprek. Daarna kijken we samen wat jij nodig hebt. Er is geen vast aantal gesprekken of protocol. Sommige mensen komen een paar keer, anderen langer. Alles gebeurt op jouw tempo en vanuit jouw verhaal.",
+    },
+    {
+      question: "Wat gebeurt er tijdens een gesprek?",
+      answer:
+        "Je krijgt de ruimte om te vertellen wat er speelt. Soms is dat vooral luisteren en er-zijn. Soms werken we met reflectievragen, herinneringen of eenvoudige oefeningen. Jij bepaalt wat er gezegd mag worden. Niets moet.",
+    },
+    {
+      question: "Hoeveel gesprekken heb ik nodig?",
+      answer:
+        "Dat verschilt per persoon. Sommigen vinden al steun in enkele gesprekken, anderen hebben langere begeleiding nodig. We evalueren regelmatig samen wat goed voelt. Er is geen minimum of maximum.",
+    },
+    {
+      question: "Kan ik ook online begeleiding krijgen?",
+      answer:
+        "Ja. Gesprekken kunnen zowel in persoon als online plaatsvinden. We kijken samen wat voor jou het fijnst is.",
+    },
+    {
+      question: "Wat kost rouwcoaching?",
+      answer:
+        "De tarieven bespreken we tijdens het kennismakingsgesprek. Er is altijd een vrijblijvend eerste gesprek, zodat je zonder verplichting kunt voelen of het klikt.",
+    },
+    {
+      question: "Is er een vrijblijvend kennismakingsgesprek?",
+      answer:
+        "Ja. We starten altijd met een kennismaking zonder verplichtingen. Zo kun jij voelen of je je veilig en gehoord voelt bij mij, en ik kan inschatten of ik de juiste begeleider voor jou ben.",
+    },
+    {
+      question: "Ik heb al jaren geleden iemand verloren. Kan ik dan nog komen?",
+      answer:
+        "Absoluut. Rouw kent geen vaste houdbaarheidsdatum. Veel mensen zoeken pas jaren later steun, wanneer het verdriet opnieuw opspeelt of wanneer ze merken dat ze er nog niet echt mee verder konden. Je bent op elk moment welkom.",
+    },
+    {
+      question: "Wat als ik niet goed kan praten over mijn gevoelens?",
+      answer:
+        "Dat is helemaal oké. Je hoeft geen mooie zinnen te formuleren. Stilte mag er ook zijn. Soms is gewoon aanwezig zijn al genoeg. We zoeken samen de manier die bij jou past.",
+    },
+    {
+      question: "Waarom heet de praktijk Viamano?",
+      answer:
+        "Viamano betekent \"door de hand\". De handafdruk op de website is van mijn overleden man. De naam staat voor begeleiding die persoonlijk is, met aandacht en vanuit liefde — hand in hand, op jouw tempo.",
+    },
+  ],
+
+  articles: [
+    {
+      slug: "wat-is-rouwcoaching",
+      title: "Wat is rouwcoaching?",
+      intro:
+        "Rouwcoaching is begeleiding voor mensen die te maken hebben met verlies. Dat kan het overlijden van een dierbare zijn, maar ook andere vormen van verlies: gezondheid, werk, een relatie, een kinderwens, of het leven zoals het was.",
+      sections: [
+        {
+          heading: "Wat rouwcoaching precies inhoudt",
+          content:
+            "Rouwcoaching is geen therapie en geen \"oplossing\" van het verdriet. Het is een veilige, warme plek waar je je verhaal mag vertellen zo vaak als nodig, waar alle gevoelens mogen bestaan — verdriet, boosheid, schuld, leegte, liefde, hoop — waar je op jouw tempo mag stilstaan bij wat er gebeurd is, en waar je stap voor stap weer ademruimte en richting mag vinden. De coach loopt met je mee. Niet voor je, niet boven je, maar naast je. Er is geen vast stappenplan. Elke begeleiding is persoonlijk en volgt jouw verhaal, jouw ritme en jouw behoeften.",
+        },
+        {
+          heading: "Wat gebeurt er in de praktijk?",
+          content:
+            "Tijdens de gesprekken krijg je ruimte om te vertellen wat er gebeurd is en wat het met je doet, stil te staan bij herinneringen en de betekenis van de ander, te ontdekken hoe het verlies jouw leven heeft veranderd, te kijken naar wat jou helpt om verder te gaan zonder te vergeten, en opnieuw vertrouwen te vinden in jezelf en in het leven. Soms werkt een coach met eenvoudige oefeningen, rituelen of reflectievragen. Soms is alleen het luisteren en er-zijn al genoeg.",
+        },
+        {
+          heading: "Voor wie is het bedoeld?",
+          content:
+            "Voor iedereen die voelt dat hij of zij er niet alleen mee verder wil of kan. Of je nu net een verlies hebt meegemaakt of al langer worstelt met de gevolgen ervan: rouwcoaching biedt een plek om te landen, te voelen en weer adem te halen.",
+        },
+      ],
+    },
+    {
+      slug: "hoe-kies-je-een-rouwcoach",
+      title: "Hoe kies je een geschikte rouwcoach?",
+      intro:
+        "Het kiezen van een rouwcoach is heel persoonlijk. Er is geen \"beste\" coach voor iedereen — er is vooral een coach die bij jou past.",
+      sections: [
+        {
+          heading: "De klik is het belangrijkste",
+          content:
+            "Je moet je veilig, gehoord en op je gemak voelen bij deze persoon. Rouw is kwetsbaar. Als je na het kennismakingsgesprek denkt \"hier kan ik alles zeggen\", dan zit je al goed. Voel je je geremd of ongemakkelijk? Dan is het oké om verder te zoeken.",
+        },
+        {
+          heading: "Ervaring met verlies",
+          content:
+            "Vraag naar de achtergrond van de coach: heeft hij of zij zelf verlies meegemaakt? Welke opleidingen en bijscholingen heeft de coach gevolgd rond rouw en verlies? Hoe lang begeleidt hij of zij al mensen bij rouw? Persoonlijke ervaring is geen must, maar veel cliënten vinden het fijn als de coach \"weet waarover het gaat\". Professionele training is wel belangrijk.",
+        },
+        {
+          heading: "Werkwijze en visie",
+          content:
+            "Een goede rouwcoach werkt op jouw tempo, heeft geen vast stappenplan of \"moetjes\", laat alle gevoelens toe, helpt je het verlies te integreren in je leven zonder te forceren, en maakt onderscheid tussen rouwcoaching en therapie. Vraag gerust: \"Hoe werk je precies?\" en \"Wat mag ik van jou verwachten?\"",
+        },
+        {
+          heading: "Het kennismakingsgesprek",
+          content:
+            "Gebruik dit gesprek om te voelen: word ik serieus genomen? Stelt de coach de juiste vragen? Voel ik warmte en respect? Krijg ik ruimte of word ik al \"geholpen\"? Je hoeft tijdens de kennismaking nog niets diepgaands te vertellen. Het gaat vooral om het gevoel.",
+        },
+      ],
+    },
+    {
+      slug: "verschil-rouwcoaching-rouwtherapie",
+      title: "Het verschil tussen rouwcoaching en rouwtherapie",
+      intro:
+        "Hoewel de termen soms door elkaar worden gebruikt, zijn er duidelijke verschillen in aanpak, doel en intensiteit.",
+      sections: [
+        {
+          heading: "Rouwcoaching",
+          content:
+            "Rouwcoaching is vooral bedoeld voor mensen die hun verdriet en gemis willen kunnen uiten, behoefte hebben aan iemand die meeloopt, hun verlies een plek willen geven in hun leven, en opnieuw richting en ademruimte willen vinden. Er is geen sprake van een \"diagnose\" of behandeling. De coach helpt je om met het verlies te leven, niet om het \"op te lossen\".",
+        },
+        {
+          heading: "Rouwtherapie",
+          content:
+            "Rouwtherapie komt meer in beeld wanneer de rouw vastzit of jarenlang onveranderd blijft, er sprake is van trauma, er sterke angst, depressieve klachten of suïcidale gedachten ontstaan, iemand niet meer functioneert in het dagelijks leven, of eerdere steun of coaching onvoldoende hielp. Een therapeut werkt dan gerichter aan het verwerken van de pijn, het verminderen van klachten en het herstellen van de veerkracht.",
+        },
+        {
+          heading: "Belangrijke nuance",
+          content:
+            "De grens is niet altijd scherp. Sommige coaches hebben ook een therapeutische achtergrond, en sommige therapeuten werken coachend. Een goede rouwcoach herkent wanneer coaching niet meer voldoende is en verwijst je dan door naar een therapeut of andere hulpverlening.",
+        },
+      ],
+    },
+    {
+      slug: "rouwverwerking-in-de-hersenen",
+      title: "Hoe werkt rouwverwerking in de hersenen?",
+      intro:
+        "Rouw is niet alleen een emotioneel proces. Het is ook een diepgaand biologisch en neurologisch proces. Wanneer je iemand verliest met wie je sterk verbonden was, reageert je brein alsof er iets fundamenteels is veranderd in je wereld — en dat is ook zo.",
+      sections: [
+        {
+          heading: "De hersenen zien verlies als pijn en gemis",
+          content:
+            "De anterior cingulate cortex en insula verwerken zowel lichamelijke als emotionele pijn. Daarom voelt intens verdriet soms letterlijk aan als een steek of een zware druk op de borst. De amygdala reageert op dreiging en onveiligheid, waardoor de wereld na een verlies opeens onveiliger kan aanvoelen. Het beloningssysteem blijft \"zoeken\" naar de ander, vergelijkbaar met hoe het reageert bij intense hunkering. De prefrontale cortex, die helpt bij emotieregulatie en plannen, is vaak overbelast, waardoor concentratie en beslissingen moeilijker worden.",
+        },
+        {
+          heading: "Gehechtheid en het interne model",
+          content:
+            "Je brein heeft een intern werkmodel van belangrijke mensen: hoe ze klinken, voelen, reageren, en wat hun aanwezigheid betekent voor jouw veiligheid. Bij een overlijden moet dit model worden bijgewerkt. Dat is een traag en energievragend proces. Zolang het oude model nog actief is, blijft het verlangen groot.",
+        },
+        {
+          heading: "Het duale procesmodel",
+          content:
+            "Volgens het duale procesmodel van Stroebe en Schut schommelt het brein voortdurend tussen twee standen: verliesgericht (herinneringen, verdriet, verlangen) en herstelgericht (praktische zaken, afleiding, nieuwe rollen). Gezonde rouwverwerking is juist dit heen-en-weer bewegen. Het brein kan niet permanent in de intensste rouwsfeer blijven; het heeft herstelperiodes nodig om te integreren.",
+        },
+        {
+          heading: "Hoe het brein zich aanpast",
+          content:
+            "Met de tijd neemt de intense zoektocht naar de ander af, worden herinneringen minder overspoelend en meer geïntegreerd, verandert het interne model van \"aanwezig\" naar \"afwezig maar betekenisvol\", en wordt emotieregulatie weer sterker. Dit proces kost maanden tot jaren en verloopt niet lineair. Golven van verdriet blijven mogelijk, maar ze worden meestal minder frequent en minder overweldigend.",
+        },
+      ],
+    },
+  ],
 };
 
 /* ── CONTACT ───────────────────────────────────────────────────────────── */
