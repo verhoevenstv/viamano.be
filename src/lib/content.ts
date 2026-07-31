@@ -199,6 +199,33 @@ export const about = {
       text: "Geen vaste stappenplannen. Rouw is een weg die je op je eigen tempo aflegt.",
     },
   ],
+
+  nameMeaning: {
+    eyebrow: "De naam",
+    title: "ViaMano — door de hand",
+    intro:
+      "Via Mano betekent letterlijk \"door de hand\" of \"via de hand\". In het Italiaans en Spaans staat mano voor hand, en via voor de weg, de route of \"door middel van\".",
+    origin:
+      "De naam is bewust gekozen en heeft een diep persoonlijke oorsprong. De handafdruk die je op de website ziet, is de hand van Karens overleden echtgenoot. Die hand staat symbool voor de liefde die blijft, voor de verbinding die niet ophoudt wanneer iemand sterft, en voor de zachte, menselijke begeleiding die Karen wil bieden.",
+    meanings: [
+      {
+        title: "Begeleiding door de hand",
+        text: "Niet van bovenaf, maar naast je, hand in hand, op jouw tempo.",
+      },
+      {
+        title: "De weg van de liefde",
+        text: "Omdat rouw en verlies altijd ook over liefde gaan: de liefde die er was, de liefde die blijft, en de liefde die je opnieuw mag voelen voor het leven.",
+      },
+      {
+        title: "Persoonlijk en met de hand gemaakt",
+        text: "Geen standaardtraject, maar een traject dat zorgvuldig en op maat wordt vormgegeven, met de aandacht en warmte die alleen een menselijke hand kan geven.",
+      },
+    ],
+    closing:
+      "De naam herinnert eraan dat begeleiding bij verlies geen techniek is, maar een menselijke beweging: iemand die zijn of haar hand uitstrekt en zegt: \"Ik loop met je mee.\"",
+    poetic:
+      "Door de hand. De hand van wie er niet meer is, en de hand die nu wordt uitgestoken. Een weg die je niet alleen hoeft te gaan.",
+  },
 };
 
 /* ── WERKWIJZE ─────────────────────────────────────────────────────────── */
@@ -332,7 +359,7 @@ export const faq = {
     {
       question: "Waarom heet de praktijk Viamano?",
       answer:
-        "Viamano betekent \"door de hand\". De handafdruk op de website is van mijn overleden man. De naam staat voor begeleiding die persoonlijk is, met aandacht en vanuit liefde — hand in hand, op jouw tempo.",
+        "Via Mano betekent letterlijk \"door de hand\". De handafdruk op de website is de hand van mijn overleden echtgenoot — een symbool voor de liefde die blijft en de verbinding die niet ophoudt. De naam staat voor begeleiding die persoonlijk is, naast je in plaats van boven je, met aandacht en warmte, hand in hand op jouw tempo. Geen standaardtraject, maar zorgvuldig op maat vormgegeven.",
     },
   ],
 

@@ -19,8 +19,9 @@ export function SiteFooter() {
               height={1797}
               className="h-auto w-56"
             />
-            <p className="mt-5 max-w-xs text-sm leading-relaxed text-slate-soft">
-              {siteConfig.description}
+            <p className="mt-5 max-w-xs text-sm italic leading-relaxed text-slate-soft">
+              Door de hand. De hand van wie er niet meer is, en de hand die nu
+              wordt uitgestoken. Een weg die je niet alleen hoeft te gaan.
             </p>
           </div>
 

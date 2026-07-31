@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
+import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { about } from "@/lib/content";
 
@@ -69,6 +70,58 @@ export default function OverMijPage() {
           </div>
         </div>
       </Section>
+
+      {/* De betekenis van ViaMano */}
+      <section className="bg-sand py-20">
+        <Container size="narrow">
+          <div className="text-center">
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-sage-deep">
+              {about.nameMeaning.eyebrow}
+            </p>
+            <h2 className="mt-3 font-serif text-3xl text-ink sm:text-4xl">
+              {about.nameMeaning.title}
+            </h2>
+          </div>
+
+          <div className="mt-10 overflow-hidden rounded-2xl border border-sand-deep bg-cream">
+            <div className="p-8 sm:p-10">
+              <p className="text-lg leading-relaxed text-muted">
+                {about.nameMeaning.intro}
+              </p>
+              <p className="mt-5 leading-relaxed text-muted">
+                {about.nameMeaning.origin}
+              </p>
+
+              <div className="mt-8 grid gap-4 sm:grid-cols-3">
+                {about.nameMeaning.meanings.map((m) => (
+                  <div
+                    key={m.title}
+                    className="rounded-xl border border-sand-deep bg-sand/40 p-5"
+                  >
+                    <p className="font-serif text-lg text-ink">{m.title}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-muted">
+                      {m.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <p className="mt-8 leading-relaxed text-muted">
+                {about.nameMeaning.closing}
+              </p>
+            </div>
+          </div>
+
+          <blockquote className="mt-10 text-center">
+            <p className="font-serif text-xl italic leading-relaxed text-sage-deep sm:text-2xl">
+              ViaMano.
+            </p>
+            <p className="mt-2 text-lg italic leading-relaxed text-muted">
+              {about.nameMeaning.poetic}
+            </p>
+          </blockquote>
+        </Container>
+      </section>
     </>
   );
 }
