@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { Button } from "@/components/Button";
@@ -80,6 +81,17 @@ export default function AanbodPage() {
           })}
         </div>
       </Section>
+
+      {/* Sfeerbeeld */}
+      <div className="relative h-48 w-full overflow-hidden sm:h-64">
+        <Image
+          src="/images/sfeer-beekje-bos.jpg"
+          alt="Stromend beekje door een groen bos — beweging en rust"
+          fill
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-cream/50 via-transparent to-sand/70" />
+      </div>
 
       {/* CTA */}
       <section className="bg-sand py-16">

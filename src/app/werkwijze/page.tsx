@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { Container } from "@/components/Container";
@@ -28,6 +29,17 @@ export default function WerkwijzePage() {
         title={werkwijze.title}
         intro={werkwijze.intro}
       />
+
+      {/* Sfeerbeeld */}
+      <div className="relative h-48 w-full overflow-hidden sm:h-64 md:h-80">
+        <Image
+          src="/images/sfeer-zonlicht-bos.jpg"
+          alt="Warm zonlicht schijnt door een mistig bos — een weg die zich opent"
+          fill
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-cream/60 via-transparent to-cream/60" />
+      </div>
 
       {/* Stappen */}
       <Section>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Hero } from "@/components/Hero";
 import { Section, Eyebrow } from "@/components/Section";
 import { ServiceCard } from "@/components/ServiceCard";
@@ -58,20 +59,27 @@ export default function HomePage() {
               </Button>
             </div>
           </div>
-          {/* Placeholder voor een foto van Karen of een sfeerbeeld */}
-          <div className="flex aspect-[4/5] items-center justify-center rounded-2xl border border-dashed border-sand-deep bg-sand">
-            <span className="px-6 text-center text-sm text-muted">
-              Foto van Karen of sfeerbeeld
-              <br />
-              (placeholder)
-            </span>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
+            <Image
+              src="/images/sfeer-mistig-meer.jpg"
+              alt="Sereen mistig meer bij zonsopgang — rust en reflectie"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
       </Section>
 
       {/* Slot-CTA */}
-      <section className="bg-sage-deep py-20 sm:py-24">
-        <Container size="narrow" className="text-center">
+      <section className="relative overflow-hidden bg-sage-deep py-20 sm:py-24">
+        <Image
+          src="/images/sfeer-zandduinen.jpg"
+          alt=""
+          fill
+          aria-hidden="true"
+          className="object-cover opacity-20 mix-blend-overlay"
+        />
+        <Container size="narrow" className="relative text-center">
           <h2 className="font-serif text-3xl text-cream sm:text-4xl">
             {home.closingCta.title}
           </h2>

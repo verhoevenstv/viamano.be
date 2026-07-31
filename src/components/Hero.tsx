@@ -7,16 +7,6 @@ export function Hero() {
   const { hero } = home;
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-sand to-cream">
-      {/* Grote, zeer subtiele handafdruk als sfeerbeeld op mobiel (achter de tekst) */}
-      <Image
-        src="/logo-mark-navy.png"
-        alt=""
-        width={431}
-        height={504}
-        aria-hidden="true"
-        className="pointer-events-none absolute -right-10 top-6 w-56 opacity-[0.06] md:hidden"
-      />
-
       <Container className="relative py-20 sm:py-28">
         <div className="grid items-center gap-10 md:grid-cols-[1.15fr_0.85fr]">
           {/* Tekst */}
@@ -38,23 +28,34 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Handafdruk naast de titel (vanaf tablet/desktop) */}
-          <div className="relative hidden md:flex md:justify-center">
+          {/* Sfeerbeeld: samen wandelen op een bospad */}
+          <div className="relative hidden md:block">
             <span
               aria-hidden="true"
-              className="absolute h-72 w-72 rounded-full bg-sage-soft/20 blur-3xl"
+              className="absolute inset-0 rounded-2xl bg-sage-soft/20 blur-3xl"
             />
             <Image
-              src="/logo-mark-navy.png"
-              alt=""
-              width={431}
-              height={504}
+              src="/images/sfeer-bospad-wandelen.jpg"
+              alt="Twee personen wandelen samen op een mistig bospad"
+              width={1152}
+              height={896}
               priority
-              className="relative w-64 opacity-90 lg:w-72"
+              className="relative rounded-2xl object-cover shadow-lg"
             />
           </div>
         </div>
       </Container>
+
+      {/* Mobiel: sfeerbeeld als subtiele achtergrond */}
+      <div className="absolute inset-0 md:hidden">
+        <Image
+          src="/images/sfeer-bospad-wandelen.jpg"
+          alt=""
+          fill
+          aria-hidden="true"
+          className="object-cover opacity-[0.08]"
+        />
+      </div>
     </section>
   );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { Button } from "@/components/Button";
@@ -26,13 +27,18 @@ export default function OverMijPage() {
 
       <Section>
         <div className="grid gap-12 md:grid-cols-[1fr_1.4fr] md:gap-16">
-          {/* Placeholder voor portretfoto */}
-          <div className="flex aspect-[4/5] items-center justify-center rounded-2xl border border-dashed border-sand-deep bg-sand md:sticky md:top-28 md:self-start">
-            <span className="px-6 text-center text-sm text-muted">
-              Portretfoto van Karen
-              <br />
-              (placeholder)
-            </span>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl md:sticky md:top-28 md:self-start">
+            <Image
+              src="/images/sfeer-mistig-meer.jpg"
+              alt="Sereen landschap — placeholder voor portretfoto van Karen"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/40 to-transparent p-4">
+              <p className="text-center text-xs text-cream/80">
+                Portretfoto volgt binnenkort
+              </p>
+            </div>
           </div>
 
           <div className="prose-soft space-y-5 text-muted">
