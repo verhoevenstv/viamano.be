@@ -30,16 +30,11 @@ export default function OverMijPage() {
         <div className="grid gap-12 md:grid-cols-[1fr_1.4fr] md:gap-16">
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl md:sticky md:top-28 md:self-start">
             <Image
-              src="/images/sfeer-mistig-meer.jpg"
-              alt="Sereen landschap — placeholder voor portretfoto van Karen"
+              src="/images/karen-portret.jpg"
+              alt="Karen Dierickx — rouwcoach bij Viamano"
               fill
-              className="object-cover"
+              className="object-cover object-top"
             />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/40 to-transparent p-4">
-              <p className="text-center text-xs text-cream/80">
-                Portretfoto volgt binnenkort
-              </p>
-            </div>
           </div>
 
           <div className="prose-soft space-y-5 text-muted">
