@@ -28,6 +28,7 @@ export default function WerkwijzePage() {
         eyebrow={werkwijze.eyebrow}
         title={werkwijze.title}
         intro={werkwijze.intro}
+        breadcrumb={{ label: "Werkwijze", href: "/werkwijze/" }}
       />
 
       {/* Sfeerbeeld */}

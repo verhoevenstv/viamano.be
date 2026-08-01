@@ -32,6 +32,7 @@ export default function AanbodPage() {
         eyebrow="Aanbod"
         title="Begeleiding die aansluit bij wat jij nodig hebt"
         intro="Elk verlies is anders. Daarom stem ik de begeleiding af op jouw verhaal en jouw tempo. Hieronder lees je wat ik aanbied."
+        breadcrumb={{ label: "Aanbod", href: "/aanbod/" }}
       />
 
       <Section>

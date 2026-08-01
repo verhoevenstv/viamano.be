@@ -26,6 +26,7 @@ export default function ContactPage() {
         eyebrow={contact.eyebrow}
         title={contact.title}
         intro={contact.intro}
+        breadcrumb={{ label: "Contact", href: "/contact/" }}
       />
 
       <Section>

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function OverMijPage() {
   return (
     <>
-      <PageHeader eyebrow={about.eyebrow} title={about.title} />
+      <PageHeader eyebrow={about.eyebrow} title={about.title} breadcrumb={{ label: "Over mij", href: "/over-mij/" }} />
 
       <Section>
         <div className="grid gap-12 md:grid-cols-[1fr_1.4fr] md:gap-16">

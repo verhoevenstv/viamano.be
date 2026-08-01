@@ -7,3 +7,8 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Redirect www naar non-www
 RewriteCond %{HTTP_HOST} ^www\.viamano\.be [NC]
 RewriteRule ^ https://viamano.be%{REQUEST_URI} [L,R=301]
+
+# Trailing slash: redirect /pad naar /pad/ (consistent met Next.js trailingSlash)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.+)$ /$1/ [L,R=301]

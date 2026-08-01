@@ -26,6 +26,7 @@ export default function TarievenPage() {
         eyebrow={tarieven.eyebrow}
         title={tarieven.title}
         intro={tarieven.intro}
+        breadcrumb={{ label: "Tarieven", href: "/tarieven/" }}
       />
 
       <Section containerSize="narrow">

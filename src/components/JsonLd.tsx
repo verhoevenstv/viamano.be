@@ -64,7 +64,12 @@ export function JsonLd() {
     founder: {
       "@type": "Person",
       name: "Karen Dierickx",
-      jobTitle: siteConfig.role,
+      jobTitle: "Rouwcoach",
+      url: `${siteConfig.url}/over-mij/`,
+      image: `${siteConfig.url}/images/karen-portret.jpg`,
+      description:
+        "Karen Dierickx is rouwcoach en oprichtster van Viamano in Lennik. Vanuit haar eigen ervaring met verlies en haar professionele opleiding begeleidt zij mensen bij rouw in al zijn vormen.",
+      worksFor: { "@id": businessId },
     },
     knowsAbout: [
       "Rouwbegeleiding",

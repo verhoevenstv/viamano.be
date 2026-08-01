@@ -5,7 +5,7 @@ import { Section } from "@/components/Section";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { FaqAccordion } from "@/components/FaqAccordion";
-import { faq } from "@/lib/content";
+import { faq, siteConfig } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Veelgestelde vragen",
@@ -42,7 +42,7 @@ const articleImages: Record<string, { src: string; alt: string }> = {
 };
 
 function FaqJsonLd() {
-  const schema = {
+  const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: faq.items.map((item) => ({
@@ -55,10 +55,33 @@ function FaqJsonLd() {
     })),
   };
 
+  const articleSchemas = faq.articles.map((article) => ({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.intro,
+    url: `${siteConfig.url}/veelgestelde-vragen/#${article.slug}`,
+    author: {
+      "@type": "Person",
+      name: "Karen Dierickx",
+      url: `${siteConfig.url}/over-mij/`,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+      logo: `${siteConfig.url}/logos/logo-primary.png`,
+    },
+    inLanguage: "nl-BE",
+    isPartOf: { "@type": "WebPage", url: `${siteConfig.url}/veelgestelde-vragen/` },
+  }));
+
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify([faqSchema, ...articleSchemas]),
+      }}
     />
   );
 }
@@ -72,6 +95,7 @@ export default function FaqPage() {
         eyebrow={faq.eyebrow}
         title={faq.title}
         intro="Hieronder vind je antwoorden op de meest gestelde vragen over rouwcoaching, hoe een traject werkt en wat je kunt verwachten bij Viamano."
+        breadcrumb={{ label: "Veelgestelde vragen", href: "/veelgestelde-vragen/" }}
       />
 
       {/* Sfeerbeeld boven de FAQ */}

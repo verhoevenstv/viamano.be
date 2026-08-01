@@ -75,7 +75,7 @@ export function SiteFooter() {
           <p>
             © {year} {siteConfig.name} — {siteConfig.domain}. Website door{" "}
             <a
-              href="https://e-csplic.be"
+              href="https://get-ict.be"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gold transition-colors hover:text-cream"
