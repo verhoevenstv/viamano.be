@@ -55,7 +55,7 @@ export const siteConfig = {
     "Vlaams-Brabant",
   ],
   priceRange: "€€",
-  sameAs: [] as string[],
+  sameAs: ["https://www.instagram.com/viamano.be"],
   keywords: [
     "rouwcoach",
     "rouwcoaching",
