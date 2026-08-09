@@ -21,8 +21,7 @@ export const siteConfig = {
   url: "https://viamano.be",
 
   email: "karen@viamano.be",
-  // PLACEHOLDER — Karens telefoonnummer nog invullen
-  phone: "+32 (0)4XX XX XX XX",
+  phone: "+32 (0)456 34 27 25",
   region: "Regio Lennik & het Pajottenland",
 
   description:
