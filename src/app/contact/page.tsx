@@ -64,14 +64,13 @@ export default function ContactPage() {
                 </dd>
               </div>
               <div>
-                <dt className="text-sage-deep">Regio</dt>
-                <dd className="mt-1 text-ink">{siteConfig.region}</dd>
+                <dt className="text-sage-deep">Locatie</dt>
+                <dd className="mt-1 text-ink">Praktijkruimte in Lennik</dd>
               </div>
               <div>
                 <dt className="text-sage-deep">Beschikbaarheid</dt>
                 <dd className="mt-1 text-ink">
-                  Steeds op afspraak — overdag, en enkele avonden, op zaterdag
-                  of zondag.
+                  Steeds op afspraak — overdag, avond of weekend.
                 </dd>
               </div>
             </dl>

@@ -23,15 +23,15 @@ export const metadata: Metadata = {
 };
 
 const articleImages: Record<string, { src: string; alt: string }> = {
-  "wat-is-rouwcoaching": {
+  "wat-is-rouwbegeleiding": {
     src: "/images/faq-bospad-zonlicht.jpg",
     alt: "Warm zonlicht schijnt door een mistig bos op een bladrijk pad",
   },
-  "hoe-kies-je-een-rouwcoach": {
+  "hoe-kies-je-een-rouwbegeleider": {
     src: "/images/faq-mistige-rivier.jpg",
     alt: "Serene mistige rivier omgeven door bomen in warme ochtendkleuren",
   },
-  "verschil-rouwcoaching-rouwtherapie": {
+  "verschil-rouwbegeleiding-rouwtherapie": {
     src: "/images/faq-graanveld-mist.jpg",
     alt: "Graanveld in zachte ochtendmist — openheid en stilte",
   },
@@ -94,7 +94,7 @@ export default function FaqPage() {
       <PageHeader
         eyebrow={faq.eyebrow}
         title={faq.title}
-        intro="Hieronder vind je antwoorden op de meest gestelde vragen over rouwcoaching, hoe een traject werkt en wat je kunt verwachten bij Viamano."
+        intro="Hieronder vind je antwoorden op de meest gestelde vragen over rouwbegeleiding, hoe een traject werkt en wat je kunt verwachten bij Viamano."
         breadcrumb={{ label: "Veelgestelde vragen", href: "/veelgestelde-vragen/" }}
       />
 
@@ -118,11 +118,11 @@ export default function FaqPage() {
       <section className="bg-sand py-20">
         <Container size="narrow">
           <h2 className="font-serif text-2xl text-ink sm:text-3xl">
-            Meer lezen over rouw en rouwcoaching
+            Meer lezen over rouw en rouwbegeleiding
           </h2>
           <p className="mt-3 text-muted">
             Wil je meer weten? Hieronder vind je uitgebreide artikelen over wat
-            rouwcoaching inhoudt, hoe je een coach kiest en hoe rouwverwerking
+            rouwbegeleiding inhoudt, hoe je een begeleider kiest en hoe rouwverwerking
             werkt.
           </p>
 

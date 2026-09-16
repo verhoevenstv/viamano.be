@@ -1,21 +1,6 @@
-/**
- * ─────────────────────────────────────────────────────────────────────────
- *  CENTRALE INHOUD VAN DE WEBSITE
- * ─────────────────────────────────────────────────────────────────────────
- *  Alle teksten van de site staan hier op één plek.
- *
- *  Deze versie bevat Karens eigen antwoorden (secties 1, 2 en deel van 3
- *  van de vragenlijst). Nog als placeholder / af te werken:
- *   - contactgegevens (e-mail, telefoon), woonplaats & regio (sectie 5–6)
- *   - portretfoto / sfeerbeelden
- *   - definitief tarief (Karen: "wordt binnenkort bekendgemaakt")
- *   - keuze merknaam: AMANO (nu actief) of VIAMANO
- * ─────────────────────────────────────────────────────────────────────────
- */
-
 export const siteConfig = {
   name: "Viamano",
-  role: "Rouw- en verliescoaching",
+  role: "Rouwbegeleiding",
   tagline: "Ruimte voor verlies. Verbinding in rouw. Hoop.",
   domain: "viamano.be",
   url: "https://viamano.be",
@@ -25,14 +10,12 @@ export const siteConfig = {
   region: "Regio Lennik & het Pajottenland",
 
   description:
-    "Rouwcoach in Lennik en het Pajottenland. Individuele begeleiding bij verlies van een dierbare, echtscheiding of gezondheid. Boek een gratis kennismaking bij Viamano.",
+    "Rouwbegeleider in Lennik en het Pajottenland. Individuele begeleiding bij verlies van een dierbare, echtscheiding of gezondheid. Boek een gratis kennismaking bij Viamano.",
 
-  // ── SEO / bedrijfsgegevens ───────────────────────────────────────────────
   city: "Lennik",
   province: "Vlaams-Brabant",
   postalCode: "1750",
   country: "BE",
-  // Op afspraak — geen straatadres op de site
   streetAddress: "",
   areaServed: [
     "Lennik",
@@ -56,21 +39,25 @@ export const siteConfig = {
   priceRange: "€€",
   sameAs: ["https://www.instagram.com/viamano.be"],
   keywords: [
-    "rouwcoach",
-    "rouwcoaching",
     "rouwbegeleiding",
+    "rouwbegeleider",
     "verliesbegeleiding",
     "rouwverwerking",
+    "rouwcoach",
+    "rouwcoaching",
     "verlies van een dierbare",
     "echtscheiding",
     "verlies van gezondheid",
     "verlies van werk",
-    "rouwcoach Lennik",
+    "rouwbegeleider Lennik",
     "rouwbegeleiding Pajottenland",
-    "rouwcoaching Vlaams-Brabant",
+    "rouwbegeleiding Vlaams-Brabant",
     "verliesbegeleiding Halle",
-    "rouwcoach Dilbeek",
+    "rouwbegeleider Dilbeek",
     "rouwverwerking Pajottenland",
+    "rouwcoach Lennik",
+    "rouwcoaching Vlaams-Brabant",
+    "rouwcoach Dilbeek",
   ],
 };
 
@@ -88,7 +75,7 @@ export const nav = [
 
 export const home = {
   hero: {
-    eyebrow: "Rouwcoaching bij verlies",
+    eyebrow: "Rouwbegeleiding bij verlies",
     title: "Ruimte voor jouw verhaal, ruimte voor jouw verdriet.",
     subtitle:
       "Rouw is meer dan afscheid nemen van een dierbare. Ook het verlies van gezondheid, werk, een relatie of het leven zoals het was, kan je diep raken. Ik loop met je mee — in alle rust, op jouw tempo.",
@@ -107,7 +94,7 @@ export const home = {
 
   servicesTeaser: {
     eyebrow: "Waarmee ik je help",
-    title: "Rouwcoaching bij verlies in al zijn vormen",
+    title: "Rouwbegeleiding bij verlies in al zijn vormen",
     intro:
       "Elke begeleiding is persoonlijk. Geen vaste stappenplannen, maar een traject dat aansluit bij jouw verhaal, jouw tempo en jouw behoeften.",
   },
@@ -121,7 +108,7 @@ export const home = {
 
   closingCta: {
     title: "Klaar voor een eerste, vrijblijvende kennismaking?",
-    text: "We starten altijd met een vrijblijvend kennismakingsgesprek. Zo voel je of het klikt, zonder enige verplichting.",
+    text: "We starten altijd met een vrijblijvend kennismakingsgesprek. Zo voel je of het klikt, zonder enige verplichting. Steeds op afspraak — overdag, avond of weekend.",
     cta: { label: "Plan een kennismaking", href: "/contact" },
   },
 };
@@ -176,7 +163,7 @@ export const about = {
   eyebrow: "Over mij",
   title: "Over Karen",
   intro:
-    "Ik ben Karen Dierickx, rouwcoach in Lennik. Vanuit eigen ervaring en mijn opleiding begeleid ik mensen bij verlies — van overlijden tot echtscheiding. Ontdek mijn verhaal.",
+    "Ik ben Karen Dierickx, rouwbegeleider in Lennik. Vanuit eigen ervaring en mijn opleiding begeleid ik mensen bij verlies — van overlijden tot echtscheiding. Ontdek mijn verhaal.",
   paragraphs: [
     "Ik ben Karen Dierickx. Ik volgde een opleiding in het begeleiden en ondersteunen van mensen tijdens ingrijpende levensgebeurtenissen en verlies. Mijn grootste leerschool was echter mijn eigen leven.",
     "Toen mijn echtgenoot overleed, veranderde mijn wereld volledig. Ik weet hoe eenzaam verlies kan voelen, hoeveel goedbedoelde adviezen soms pijn doen, en hoe belangrijk het is dat iemand gewoon naast je blijft staan.",
@@ -205,7 +192,7 @@ export const about = {
     intro:
       "Via Mano betekent letterlijk \"door de hand\" of \"via de hand\". In het Italiaans en Spaans staat mano voor hand, en via voor de weg, de route of \"door middel van\".",
     origin:
-      "De naam is bewust gekozen en heeft een diep persoonlijke oorsprong. De handafdruk die je op de website ziet, is de hand van Karens overleden echtgenoot. Die hand staat symbool voor de liefde die blijft, voor de verbinding die niet ophoudt wanneer iemand sterft, en voor de zachte, menselijke begeleiding die Karen wil bieden.",
+      "De naam is bewust gekozen en heeft een diep persoonlijke oorsprong. De handafdruk die je op de website ziet, is de hand van mijn overleden echtgenoot. Die hand staat symbool voor de liefde die blijft, voor de verbinding die niet ophoudt wanneer iemand sterft, en voor de zachte, menselijke begeleiding die ik wil bieden.",
     meanings: [
       {
         title: "Begeleiding door de hand",
@@ -233,7 +220,7 @@ export const werkwijze = {
   eyebrow: "Werkwijze",
   title: "Hoe een begeleiding verloopt",
   intro:
-    "Van kennismaking tot persoonlijke rouwcoaching in Lennik. Ontdek stap voor stap hoe een begeleidingstraject bij Viamano verloopt.",
+    "Van kennismaking tot persoonlijke rouwbegeleiding in Lennik. Ontdek stap voor stap hoe een begeleidingstraject bij Viamano verloopt.",
   steps: [
     {
       title: "Kennismaking",
@@ -255,8 +242,8 @@ export const werkwijze = {
   practical: {
     title: "Praktisch",
     items: [
-      "Gesprekken gaan door op afspraak, in een warme en huiselijke praktijkruimte in regio Lennik waar rust en veiligheid centraal staan.",
-      "Overdag op afspraak, en daarnaast enkele avonden, op zaterdag of zondag.",
+      "Gesprekken gaan door op afspraak, in een warme en huiselijke praktijkruimte in Lennik waar rust en veiligheid centraal staan.",
+      "Steeds op afspraak — overdag, avond of weekend.",
       "Indien gewenst kunnen gesprekken ook wandelend of online plaatsvinden.",
       "Een eerste kennismaking is altijd vrijblijvend en alles wat je deelt, blijft vertrouwelijk.",
     ],
@@ -269,17 +256,17 @@ export const tarieven = {
   eyebrow: "Tarieven",
   title: "Tarieven",
   intro:
-    "Transparante tarieven voor rouwcoaching bij Viamano in Lennik. Kennismakingsgesprek altijd gratis en vrijblijvend.",
+    "Transparante tarieven voor rouwbegeleiding bij Viamano in Lennik. Kennismakingsgesprek altijd gratis en vrijblijvend.",
   items: [
     {
       label: "Kennismakingsgesprek",
       price: "Gratis & vrijblijvend",
-      note: "Een eerste gesprek om te voelen of het klikt.",
+      note: "Een eerste gesprek om te voelen of het klikt. Reken op ±30 minuten.",
     },
     {
-      label: "Individuele rouwcoaching",
+      label: "Individuele rouwbegeleiding",
       price: "Binnenkort bekend",
-      note: "Het tarief per gesprek wordt binnenkort bekendgemaakt.",
+      note: "Het tarief per gesprek wordt binnenkort bekendgemaakt. Reken op ±75 minuten per sessie.",
     },
   ],
   footnote:
@@ -292,26 +279,26 @@ export const faq = {
   eyebrow: "Veelgestelde vragen",
   title: "Antwoorden op veelgestelde vragen",
   intro:
-    "Veelgestelde vragen over rouwcoaching bij Viamano in Lennik. Wat is rouwcoaching, voor wie is het, en hoe werkt een traject? Vind hier het antwoord.",
+    "Veelgestelde vragen over rouwbegeleiding bij Viamano in Lennik. Wat is rouwbegeleiding, voor wie is het, en hoe werkt een traject? Vind hier het antwoord.",
 
   items: [
     {
-      question: "Wat is rouwcoaching precies?",
+      question: "Wat is rouwbegeleiding precies?",
       answer:
-        "Rouwcoaching is begeleiding bij verlies. Het is een veilige plek waar je je verhaal mag vertellen, je gevoelens mag voelen en op jouw tempo mag zoeken naar ademruimte en richting. Er is geen vast stappenplan. Ik loop met je mee — niet voor je, niet boven je, maar naast je.",
+        "Rouwbegeleiding is ondersteuning bij verlies. Het is een veilige plek waar je je verhaal mag vertellen, je gevoelens mag voelen en op jouw tempo mag zoeken naar ademruimte en richting. Er is geen vast stappenplan. Ik loop met je mee — niet voor je, niet boven je, maar naast je.",
     },
     {
-      question: "Wat is het verschil tussen rouwcoaching en rouwtherapie?",
+      question: "Wat is het verschil tussen rouwbegeleiding en rouwtherapie?",
       answer:
-        "Rouwcoaching is ondersteunend en begeleidend. Het richt zich op ruimte geven en het integreren van het verlies in je leven. Rouwtherapie is meer behandelend en komt vooral in beeld bij vastgelopen, gecompliceerde of traumatische rouw. Bij Viamano werk ik coachend. Als therapie nodig blijkt, verwijs ik je door.",
+        "Rouwbegeleiding is ondersteunend en begeleidend. Het richt zich op ruimte geven en het integreren van het verlies in je leven. Rouwtherapie is meer behandelend en komt vooral in beeld bij vastgelopen, gecompliceerde of traumatische rouw. Bij Viamano werk ik begeleidend. Als therapie nodig blijkt, verwijs ik je door.",
     },
     {
-      question: "Voor wie is rouwcoaching geschikt?",
+      question: "Voor wie is rouwbegeleiding geschikt?",
       answer:
         "Voor iedereen die te maken heeft met verlies en behoefte heeft aan steun. Dat kan het overlijden van een dierbare zijn, maar ook het verlies van gezondheid, een relatie, werk, een kinderwens of het leven zoals het was. Of je net een verlies hebt meegemaakt of al langer meedraagt: je bent welkom.",
     },
     {
-      question: "Wanneer is rouwcoaching zinvol?",
+      question: "Wanneer is rouwbegeleiding zinvol?",
       answer:
         "Wanneer je voelt dat je er niet alleen mee verder wilt of kunt. Wanneer het verdriet zwaar weegt, wanneer je vastloopt, of wanneer je gewoon iemand zoekt die meeloopt zonder oordeel. Je hoeft niet \"erg genoeg\" te rouwen. Als jij het nodig hebt, is het zinvol.",
     },
@@ -336,7 +323,7 @@ export const faq = {
         "Ja. Gesprekken kunnen zowel in persoon als online plaatsvinden. We kijken samen wat voor jou het fijnst is.",
     },
     {
-      question: "Wat kost rouwcoaching?",
+      question: "Wat kost rouwbegeleiding?",
       answer:
         "De tarieven bespreken we tijdens het kennismakingsgesprek. Er is altijd een vrijblijvend eerste gesprek, zodat je zonder verplichting kunt voelen of het klikt.",
     },
@@ -364,33 +351,33 @@ export const faq = {
 
   articles: [
     {
-      slug: "wat-is-rouwcoaching",
-      title: "Wat is rouwcoaching?",
+      slug: "wat-is-rouwbegeleiding",
+      title: "Wat is rouwbegeleiding?",
       intro:
-        "Rouwcoaching is begeleiding voor mensen die te maken hebben met verlies. Dat kan het overlijden van een dierbare zijn, maar ook andere vormen van verlies: gezondheid, werk, een relatie, een kinderwens, of het leven zoals het was.",
+        "Rouwbegeleiding is ondersteuning voor mensen die te maken hebben met verlies. Dat kan het overlijden van een dierbare zijn, maar ook andere vormen van verlies: gezondheid, werk, een relatie, een kinderwens, of het leven zoals het was.",
       sections: [
         {
-          heading: "Wat rouwcoaching precies inhoudt",
+          heading: "Wat rouwbegeleiding precies inhoudt",
           content:
-            "Rouwcoaching is geen therapie en geen \"oplossing\" van het verdriet. Het is een veilige, warme plek waar je je verhaal mag vertellen zo vaak als nodig, waar alle gevoelens mogen bestaan — verdriet, boosheid, schuld, leegte, liefde, hoop — waar je op jouw tempo mag stilstaan bij wat er gebeurd is, en waar je stap voor stap weer ademruimte en richting mag vinden. De coach loopt met je mee. Niet voor je, niet boven je, maar naast je. Er is geen vast stappenplan. Elke begeleiding is persoonlijk en volgt jouw verhaal, jouw ritme en jouw behoeften.",
+            "Rouwbegeleiding is geen therapie en geen \"oplossing\" van het verdriet. Het is een veilige, warme plek waar je je verhaal mag vertellen zo vaak als nodig, waar alle gevoelens mogen bestaan — verdriet, boosheid, schuld, leegte, liefde, hoop — waar je op jouw tempo mag stilstaan bij wat er gebeurd is, en waar je stap voor stap weer ademruimte en richting mag vinden. De begeleider loopt met je mee. Niet voor je, niet boven je, maar naast je. Er is geen vast stappenplan. Elke begeleiding is persoonlijk en volgt jouw verhaal, jouw ritme en jouw behoeften.",
         },
         {
           heading: "Wat gebeurt er in de praktijk?",
           content:
-            "Tijdens de gesprekken krijg je ruimte om te vertellen wat er gebeurd is en wat het met je doet, stil te staan bij herinneringen en de betekenis van de ander, te ontdekken hoe het verlies jouw leven heeft veranderd, te kijken naar wat jou helpt om verder te gaan zonder te vergeten, en opnieuw vertrouwen te vinden in jezelf en in het leven. Soms werkt een coach met eenvoudige oefeningen, rituelen of reflectievragen. Soms is alleen het luisteren en er-zijn al genoeg.",
+            "Tijdens de gesprekken krijg je ruimte om te vertellen wat er gebeurd is en wat het met je doet, stil te staan bij herinneringen en de betekenis van de ander, te ontdekken hoe het verlies jouw leven heeft veranderd, te kijken naar wat jou helpt om verder te gaan zonder te vergeten, en opnieuw vertrouwen te vinden in jezelf en in het leven. Soms werk ik met eenvoudige oefeningen, rituelen of reflectievragen. Soms is alleen het luisteren en er-zijn al genoeg.",
         },
         {
           heading: "Voor wie is het bedoeld?",
           content:
-            "Voor iedereen die voelt dat hij of zij er niet alleen mee verder wil of kan. Of je nu net een verlies hebt meegemaakt of al langer worstelt met de gevolgen ervan: rouwcoaching biedt een plek om te landen, te voelen en weer adem te halen.",
+            "Voor iedereen die voelt dat hij of zij er niet alleen mee verder wil of kan. Of je nu net een verlies hebt meegemaakt of al langer worstelt met de gevolgen ervan: rouwbegeleiding biedt een plek om te landen, te voelen en weer adem te halen.",
         },
       ],
     },
     {
-      slug: "hoe-kies-je-een-rouwcoach",
-      title: "Hoe kies je een geschikte rouwcoach?",
+      slug: "hoe-kies-je-een-rouwbegeleider",
+      title: "Hoe kies je een geschikte rouwbegeleider?",
       intro:
-        "Het kiezen van een rouwcoach is heel persoonlijk. Er is geen \"beste\" coach voor iedereen — er is vooral een coach die bij jou past.",
+        "Het kiezen van een rouwbegeleider is heel persoonlijk. Er is geen \"beste\" begeleider voor iedereen — er is vooral een begeleider die bij jou past.",
       sections: [
         {
           heading: "De klik is het belangrijkste",
@@ -400,40 +387,40 @@ export const faq = {
         {
           heading: "Ervaring met verlies",
           content:
-            "Vraag naar de achtergrond van de coach: heeft hij of zij zelf verlies meegemaakt? Welke opleidingen en bijscholingen heeft de coach gevolgd rond rouw en verlies? Hoe lang begeleidt hij of zij al mensen bij rouw? Persoonlijke ervaring is geen must, maar veel cliënten vinden het fijn als de coach \"weet waarover het gaat\". Professionele training is wel belangrijk.",
+            "Vraag naar de achtergrond van de begeleider: heeft hij of zij zelf verlies meegemaakt? Welke opleidingen en bijscholingen heeft de begeleider gevolgd rond rouw en verlies? Hoe lang begeleidt hij of zij al mensen bij rouw? Persoonlijke ervaring is geen must, maar veel cliënten vinden het fijn als de begeleider \"weet waarover het gaat\". Professionele training is wel belangrijk.",
         },
         {
           heading: "Werkwijze en visie",
           content:
-            "Een goede rouwcoach werkt op jouw tempo, heeft geen vast stappenplan of \"moetjes\", laat alle gevoelens toe, helpt je het verlies te integreren in je leven zonder te forceren, en maakt onderscheid tussen rouwcoaching en therapie. Vraag gerust: \"Hoe werk je precies?\" en \"Wat mag ik van jou verwachten?\"",
+            "Een goede rouwbegeleider werkt op jouw tempo, heeft geen vast stappenplan of \"moetjes\", laat alle gevoelens toe, helpt je het verlies te integreren in je leven zonder te forceren, en maakt onderscheid tussen rouwbegeleiding en therapie. Vraag gerust: \"Hoe werk je precies?\" en \"Wat mag ik van jou verwachten?\"",
         },
         {
           heading: "Het kennismakingsgesprek",
           content:
-            "Gebruik dit gesprek om te voelen: word ik serieus genomen? Stelt de coach de juiste vragen? Voel ik warmte en respect? Krijg ik ruimte of word ik al \"geholpen\"? Je hoeft tijdens de kennismaking nog niets diepgaands te vertellen. Het gaat vooral om het gevoel.",
+            "Gebruik dit gesprek om te voelen: word ik serieus genomen? Stelt de begeleider de juiste vragen? Voel ik warmte en respect? Krijg ik ruimte of word ik al \"geholpen\"? Je hoeft tijdens de kennismaking nog niets diepgaands te vertellen. Het gaat vooral om het gevoel.",
         },
       ],
     },
     {
-      slug: "verschil-rouwcoaching-rouwtherapie",
-      title: "Het verschil tussen rouwcoaching en rouwtherapie",
+      slug: "verschil-rouwbegeleiding-rouwtherapie",
+      title: "Het verschil tussen rouwbegeleiding en rouwtherapie",
       intro:
         "Hoewel de termen soms door elkaar worden gebruikt, zijn er duidelijke verschillen in aanpak, doel en intensiteit.",
       sections: [
         {
-          heading: "Rouwcoaching",
+          heading: "Rouwbegeleiding",
           content:
-            "Rouwcoaching is vooral bedoeld voor mensen die hun verdriet en gemis willen kunnen uiten, behoefte hebben aan iemand die meeloopt, hun verlies een plek willen geven in hun leven, en opnieuw richting en ademruimte willen vinden. Er is geen sprake van een \"diagnose\" of behandeling. De coach helpt je om met het verlies te leven, niet om het \"op te lossen\".",
+            "Rouwbegeleiding is vooral bedoeld voor mensen die hun verdriet en gemis willen kunnen uiten, behoefte hebben aan iemand die meeloopt, hun verlies een plek willen geven in hun leven, en opnieuw richting en ademruimte willen vinden. Er is geen sprake van een \"diagnose\" of behandeling. De begeleider helpt je om met het verlies te leven, niet om het \"op te lossen\".",
         },
         {
           heading: "Rouwtherapie",
           content:
-            "Rouwtherapie komt meer in beeld wanneer de rouw vastzit of jarenlang onveranderd blijft, er sprake is van trauma, er sterke angst, depressieve klachten of suïcidale gedachten ontstaan, iemand niet meer functioneert in het dagelijks leven, of eerdere steun of coaching onvoldoende hielp. Een therapeut werkt dan gerichter aan het verwerken van de pijn, het verminderen van klachten en het herstellen van de veerkracht.",
+            "Rouwtherapie komt meer in beeld wanneer de rouw vastzit of jarenlang onveranderd blijft, er sprake is van trauma, er sterke angst, depressieve klachten of suïcidale gedachten ontstaan, iemand niet meer functioneert in het dagelijks leven, of eerdere steun of begeleiding onvoldoende hielp. Een therapeut werkt dan gerichter aan het verwerken van de pijn, het verminderen van klachten en het herstellen van de veerkracht.",
         },
         {
           heading: "Belangrijke nuance",
           content:
-            "De grens is niet altijd scherp. Sommige coaches hebben ook een therapeutische achtergrond, en sommige therapeuten werken coachend. Een goede rouwcoach herkent wanneer coaching niet meer voldoende is en verwijst je dan door naar een therapeut of andere hulpverlening.",
+            "De grens is niet altijd scherp. Sommige begeleiders hebben ook een therapeutische achtergrond, en sommige therapeuten werken begeleidend. Een goede rouwbegeleider herkent wanneer begeleiding niet meer voldoende is en verwijst je dan door naar een therapeut of andere hulpverlening.",
         },
       ],
     },
@@ -451,7 +438,7 @@ export const faq = {
         {
           heading: "Gehechtheid en het interne model",
           content:
-            "Je brein heeft een intern werkmodel van belangrijke mensen: hoe ze klinken, voelen, reageren, en wat hun aanwezigheid betekent voor jouw veiligheid. Bij een overlijden moet dit model worden bijgewerkt. Dat is een traag en energievragend proces. Zolang het oude model nog actief is, blijft het verlangen groot.",
+            "Je brein heeft een intern werkmodel van belangrijke mensen: hoe ze klinken, voelen, reageren, en wat hun aanwezigheid betekent voor jouw veiligheid. Bij een overlijden of gemis moet dit model worden bijgewerkt. Dat is een traag en energievragend proces. Zolang het oude model nog actief is, blijft het verlangen groot — een intense zoektocht naar de andere persoon of de andere situatie.",
         },
         {
           heading: "Het duale procesmodel",
@@ -461,7 +448,7 @@ export const faq = {
         {
           heading: "Hoe het brein zich aanpast",
           content:
-            "Met de tijd neemt de intense zoektocht naar de ander af, worden herinneringen minder overspoelend en meer geïntegreerd, verandert het interne model van \"aanwezig\" naar \"afwezig maar betekenisvol\", en wordt emotieregulatie weer sterker. Dit proces kost maanden tot jaren en verloopt niet lineair. Golven van verdriet blijven mogelijk, maar ze worden meestal minder frequent en minder overweldigend.",
+            "Met de tijd neemt de intense zoektocht naar de andere persoon of de andere situatie af, worden herinneringen minder overspoelend en meer geïntegreerd, verandert het interne model van \"aanwezig\" naar \"afwezig maar betekenisvol\", en wordt emotieregulatie weer sterker. Dit proces kost maanden tot jaren en verloopt niet lineair. Golven van verdriet blijven mogelijk, maar ze worden meestal minder frequent en minder overweldigend.",
         },
       ],
     },
@@ -474,7 +461,7 @@ export const contact = {
   eyebrow: "Contact",
   title: "Neem gerust contact op",
   intro:
-    "Neem contact op met Viamano voor rouwcoaching in Lennik en het Pajottenland. Plan een gratis kennismakingsgesprek of stel je vraag — ik reageer zo snel mogelijk.",
+    "Neem contact op met Viamano voor rouwbegeleiding in Lennik en het Pajottenland. Plan een gratis kennismakingsgesprek of stel je vraag — ik reageer zo snel mogelijk.",
   formNote:
     "Je bericht komt rechtstreeks bij mij terecht en wordt vertrouwelijk behandeld.",
 };

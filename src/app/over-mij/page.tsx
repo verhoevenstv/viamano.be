@@ -31,7 +31,7 @@ export default function OverMijPage() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl md:sticky md:top-28 md:self-start">
             <Image
               src="/images/karen-portret.jpg"
-              alt="Karen Dierickx — rouwcoach bij Viamano"
+              alt="Karen Dierickx — rouwbegeleider bij Viamano"
               fill
               className="object-cover object-top"
             />
