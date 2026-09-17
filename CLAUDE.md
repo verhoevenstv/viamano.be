@@ -1,7 +1,12 @@
 # Viamano — Project Context
 
 ## Wat is dit?
-Website voor **Viamano** (viamano.be) — de rouw- en verliescoachingpraktijk van **Karen Dierickx** in Lennik, Pajottenland (Vlaams-Brabant, België). Eigenaar/opdrachtgever: **Steven Verhoeven** (verhoeven.stv@gmail.com).
+Website voor **Viamano** (viamano.be) — de rouwbegeleidingspraktijk van **Karen Dierickx** in Lennik, Pajottenland (Vlaams-Brabant, België). Eigenaar/opdrachtgever: **Steven Verhoeven** (verhoeven.stv@gmail.com).
+
+### Terminologie
+- **UI/zichtbare tekst**: "rouwbegeleiding" / "rouwbegeleider" (niet "coaching/coach")
+- **SEO keywords**: behouden beide termen ("rouwbegeleiding" + "rouwcoaching") voor vindbaarheid
+- `siteConfig.role` = `"Rouwbegeleiding"`
 
 ## Tech stack
 - **Next.js 14** (App Router) met **statische export** (`output: "export"` → `/out`)
@@ -107,6 +112,11 @@ Warme, rustige tinten: cream, sand, sage, petrol/ink, gold/ochre. Zie `src/lib/t
 - **Regio**: Lennik & het Pajottenland
 - **Instagram**: @viamano.be
 
+## Tarieven (sessietermijnen)
+- **Gratis kennismakingsgesprek**: ±30 minuten
+- **Individuele begeleiding**: ±75 minuten per sessie
+- **Praktijkruimte**: in Lennik
+
 ## Nog te doen
 - **Google Business Profile** aanmaken (kritiek voor lokale vindbaarheid + LLM-resultaten)
 - **Bing Places** aanmaken (kritiek voor ChatGPT-vindbaarheid)
@@ -114,3 +124,4 @@ Warme, rustige tinten: cream, sand, sage, petrol/ink, gold/ochre. Zie `src/lib/t
 - **Directoryvermeldingen** — Gouden Gids, vind-een-therapeut.be, vindeencoach.be
 - **OG image** (`/og-image.png`) — nog aan te maken
 - **Cal.com booking integratie** — besproken maar niet geïmplementeerd
+- **llms.txt** bijwerken met rebranding-terminologie (begeleiding i.p.v. coaching)
