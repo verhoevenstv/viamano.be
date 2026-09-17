@@ -62,7 +62,7 @@ export default function HomePage() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
             <Image
               src="/images/karen-home.jpg"
-              alt="Karen Dierickx — rouwcoach bij Viamano"
+              alt="Karen Dierickx — rouwbegeleider bij Viamano"
               fill
               className="object-cover object-top"
             />
